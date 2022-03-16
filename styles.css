@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 header {
   display: flex;
   background-color: #3e3c3c;
@@ -24,11 +27,14 @@ li a {
   padding-left: 30px;
 }
 .headline {
+  display: flex;
   padding-top: 150px;
   margin-top: 0;
-  height: 600px;
+  height: 100vh;
   background: black;
   background-image: url("/images/Illustration-header@2x.png");
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 h1 {
   color: crimson;
