@@ -3,7 +3,7 @@ header {
   background-color: #3e3c3c;
   color: white;
   height: 52px;
-  font-size: 13px;
+  font-size: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -16,10 +16,44 @@ ul {
 }
 li a {
   flex-direction: column;
-  padding-right: 8px;
+  padding-right: 25px;
   color: white;
   text-decoration: none;
 }
 .logo {
   padding-left: 30px;
+}
+.headline {
+  padding-top: 150px;
+  margin-top: 0;
+  height: 600px;
+  background: black;
+  background-image: url("/images/Illustration-header@2x.png");
+}
+h1 {
+  color: crimson;
+  font-size: 72px;
+}
+h4 {
+  color: white;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+p {
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text {
+  padding-left: 125px;
 }
