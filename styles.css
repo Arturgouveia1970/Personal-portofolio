@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
 * {
   margin: 0;
 }
+
 header {
   display: flex;
   background-color: #3e3c3c;
@@ -10,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 ul {
   list-style: none;
   margin: 0;
@@ -17,15 +21,18 @@ ul {
   display: inline-flex;
   padding-right: 30px;
 }
+
 li a {
   flex-direction: column;
   padding-right: 25px;
   color: white;
   text-decoration: none;
 }
+
 .logo {
   padding-left: 30px;
 }
+
 .headline {
   display: flex;
   padding-top: 150px;
@@ -36,13 +43,16 @@ li a {
   background-position: right top;
   background-repeat: no-repeat;
 }
+
 h1 {
+  font-family: "Crete round", sans-serif;
   color: crimson;
   font-size: 72px;
 }
+
 h4 {
   color: white;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -50,9 +60,10 @@ h4 {
   letter-spacing: 0em;
   text-align: left;
 }
+
 p {
   color: white;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -60,6 +71,7 @@ p {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .text {
   padding-left: 125px;
 }
