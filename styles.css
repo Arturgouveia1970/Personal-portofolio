@@ -97,7 +97,7 @@ h4 {
 }
 
 p {
-  font-family: Poppins;
+  font-family: Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
