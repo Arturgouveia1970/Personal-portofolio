@@ -66,9 +66,7 @@ li a {
   background-color: black;
   background-image: url("/images/Illustration.png");
   background-position: right bottom;
-  /*position: absolute;*/
   background-repeat: no-repeat;
-  /*justify-content: left;*/
   align-items: center;
 }
 
