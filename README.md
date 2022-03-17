@@ -21,7 +21,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- great collaboration from my coding partners: Nil Djoleto and Sameh Tautawi.
+- great collaboration from my coding partners: Nil Djoleto and Sameh Tantawi.
 
 ## 📝 License
 
