@@ -63,11 +63,13 @@ li a {
   padding-top: 150px;
   margin-top: 0;
   height: 100vh;
-  background: black;
-  background-image: url("/images/Illustration-header@2x.png");
-  background-position: 45% top;
+  background-color: black;
+  background-image: url("/images/Illustration.png");
+  background-position: right bottom;
+  /*position: absolute;*/
   background-repeat: no-repeat;
-  justify-content: left;
+  /*justify-content: left;*/
+  align-items: center;
 }
 
 h1 {
