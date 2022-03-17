@@ -30,7 +30,15 @@ li a {
 }
 
 .menu {
-  padding-right: 20px;
+  /* padding-right: 20px;*/
+}
+.menu img {
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  top: 17px;
+  border-radius: 0px;
+  padding-right: 30px;
 }
 
 .logo {
@@ -40,6 +48,13 @@ li a {
 .logo a {
   color: white;
   text-decoration: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .headline {
@@ -49,42 +64,69 @@ li a {
   height: 100vh;
   background: black;
   background-image: url("/images/Illustration-header@2x.png");
-  background-position: right top;
+  background-position: 45% top;
   background-repeat: no-repeat;
+  justify-content: left;
 }
 
 h1 {
   font-family: "Crete round", sans-serif;
-  color: crimson;
-  font-size: 72px;
+  color: #ff6b00;
+  height: 124px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
 }
 
 h4 {
-  color: white;
-  font-family: Inter, sans-serif;
-  font-size: 32px;
+  font-family: Roboto;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 44px;
-  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
   text-align: left;
+  color: #fff5e1;
 }
 
 p {
-  color: white;
-  font-family: Inter, sans-serif;
-  font-size: 20px;
+  font-family: Poppins;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0;
+  line-height: 24px;
+  letter-spacing: 0em;
   text-align: left;
+  color: #fff;
+  width: 327px;
 }
 
 .text {
-  padding-left: 125px;
+  padding-left: 50px;
+  width: 327px;
 }
 
 #burger {
   filter: brightness;
+}
+
+#icons {
+  display: flex;
+  padding-left: 20px;
+}
+.icons {
+  padding: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    display: none;
+  }
 }
