@@ -60,14 +60,14 @@ li a {
 
 .headline {
   display: flex;
-  padding-top: 150px;
+  padding-top: 90px;
   margin-top: 0;
   height: 100vh;
   background-color: black;
   background-image: url("/images/Illustration.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 h1 {
@@ -76,7 +76,7 @@ h1 {
   height: 124px;
   width: 327px;
   left: 24px;
-  top: 120px;
+  /* top: 120px;*/
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
@@ -94,6 +94,7 @@ h4 {
   letter-spacing: 0;
   text-align: left;
   color: #fff5e1;
+  padding-top: 15px;
 }
 
 p {
@@ -106,12 +107,13 @@ p {
   text-align: left;
   color: #fff;
   width: 327px;
+  padding-top: 15px;
 }
 
-.text {
+/*.text {
   padding-left: 50px;
   width: 327px;
-}
+}*/
 
 #burger {
   filter: brightness;
@@ -119,16 +121,277 @@ p {
 
 #icons {
   display: flex;
-  padding-left: 20px;
+  padding-left: 60px;
+  padding-top: 15px;
 }
 
 .icons {
-  padding: 10px;
+  padding-right: 10px;
   justify-content: space-between;
 }
 
+.recent-works {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+}
+.recent-works p {
+  color: #091e42;
+  text-align: justify;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  position: static;
+  width: 327px;
+  height: 0px;
+  left: 0px;
+  top: 107px;
+}
+
+.recent-works h1 {
+  position: static;
+  width: 327px;
+  height: 83px;
+  left: 0px;
+  top: 0px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+  display: flex;
+  align-items: center;
+  /* Theme 3 / Neutral 1 */
+  color: #1c1a19;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+ol {
+  list-style: none;
+  display: inline-flex;
+  justify-self: flex-start;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 80px;
+}
+
+.recent-works h3 {
+  position: static;
+  width: 327px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+  padding-top: 20px;
+}
+
+.projects {
+  /* position: static;
+  width: 327px;
+  height: 83px;
+  left: 0px;
+  top: 0px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  /* Theme 3 / Neutral 1 */
+  color: #fff;
+  /* Inside auto layout */
+  /* flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px; */
+  height: 400px;
+  width: 100%;
+  margin: 10px 70px 0px 60px;
+  padding: 30px 20px 10px 10px;
+}
+
+.projects .text1 h3 {
+  position: static;
+  width: 327px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+  padding-top: 20px;
+}
+
+.projects p {
+  font-size: 16px;
+  font-family: inter, sans-serif;
+  font-weight: 400, regular;
+  width: 295px;
+  height: 87px;
+  left: 16px;
+  top: 101px;
+  text-align: left;
+}
+
+.projects .text1 {
+  padding-top: 78px;
+  padding-left: 20px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  background-image: url(images/img-placeholder.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-works ul {
+  margin-top: 0;
+  margin: 24px 0px;
+}
+
+ol li {
+  padding-right: 10px;
+}
+
+body .long-button a {
+  flex-direction: column;
+  padding-right: 25px;
+  color: white;
+  margin-top: 0px;
+}
+
+.about-me {
+  display: flex;
+  padding-top: 150px;
+  margin-top: 20px;
+  height: 480px;
+  background-color: black;
+  background-image: url("/images/illustration-about-me-mobile.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.about-me h1 {
+  height: 79px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  padding-left: 100px;
+}
+
+.about-me p {
+  height: 79px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.getmyresume-button {
+  /* padding-left: 5px;
+  padding-top: 100px;*/
+  height: 48px;
+  width: 161px;
+  left: 24px;
+  /* top: 395px;*/
+  padding: 50px 0px 0px 20px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.solid1 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  position: static;
+  height: 0px;
+  left: 0px;
+  top: 107px;
+  color: #fff;
+  width: 600px;
+  left: 49.4560546875px;
+  top: 8.7279052734375px;
+  border: 1px solid #fff;
+}
+
+.languages {
+  display: flex;
+  background-color: black;
+  color: #fff;
+  padding-left: 50px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.languages .lists ul {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 0px;
+  float: left;
+  margin-right: 200px;
+  justify-content: center;
+}
+
+.languages .lists ul li {
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  height: 24px;
+  width: 114px;
+  left: 0px;
+  top: 12px;
+}
+
+.languages .lists h2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  height: 24px;
+  width: 164px;
+  left: 49.4560546875px;
+  top: 8.7279052734375px;
+}
+
+.languages .lists h2 img {
+  width: 18px;
+  height: 18px;
+  padding-right: 5px;
+}
+
 @media screen and (max-width: 768px) {
-  ul {
+  nav ul {
     display: none;
   }
 }
