@@ -349,11 +349,6 @@ body .long-button a {
   justify-content: center;
 }
 
-#projects .projects ul {
-  margin-top: 19px;
-  margin-left: -8px;
-}
-
 .about-me .lists ul li {
   flex-direction: row;
   margin-top: 0;
