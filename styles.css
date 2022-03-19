@@ -67,7 +67,6 @@ li a {
   background-image: url("/images/Illustration.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  /*align-items: center;*/
 }
 
 h1 {
@@ -110,10 +109,10 @@ p {
   padding-top: 15px;
 }
 
-/*.text {
+.text {
   padding-left: 50px;
   width: 327px;
-}*/
+}
 
 #burger {
   filter: brightness;
@@ -357,7 +356,7 @@ body .long-button a {
   display: flex;
   flex-direction: column;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 0px;
   float: left;
   margin-right: 200px;
@@ -366,7 +365,7 @@ body .long-button a {
 
 .languages .lists ul li {
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 50px;
   margin-bottom: 0px;
   height: 24px;
@@ -388,6 +387,10 @@ body .long-button a {
   width: 18px;
   height: 18px;
   padding-right: 5px;
+}
+
+.languages .lists #skill {
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 768px) {
