@@ -75,7 +75,6 @@ h1 {
   height: 124px;
   width: 327px;
   left: 24px;
-  /* top: 120px;*/
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
@@ -134,17 +133,19 @@ p {
   flex-direction: column;
   padding-left: 70px;
 }
+
 .recent-works p {
   color: #091e42;
   text-align: justify;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 60px;
   position: static;
   width: 327px;
-  height: 0px;
-  left: 0px;
+  height: 0;
+  left: 0;
   top: 107px;
 }
 
@@ -152,24 +153,22 @@ hr {
   position: static;
   width: 327px;
   height: 83px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  /* or 130% */
   display: flex;
   align-items: center;
-  /* Theme 3 / Neutral 1 */
   color: #1c1a19;
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 24px 0px;
 }
+
 ol {
   list-style: none;
   display: inline-flex;
@@ -184,9 +183,9 @@ ol {
   position: static;
   width: 327px;
   height: 36px;
-  left: 0px;
-  top: 0px;
-  font-family: "Crete Round";
+  left: 0;
+  top: 0;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -197,35 +196,17 @@ ol {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
   padding-top: 20px;
 }
 
 .projects {
-  /* position: static;
-  width: 327px;
-  height: 83px;
-  left: 0px;
-  top: 0px;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  /* or 130% */
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /* Theme 3 / Neutral 1 */
   color: #fff;
-  /* Inside auto layout */
-  /* flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 24px 0px; */
   height: 400px;
   width: 100%;
-  margin: 10px 70px 0px 60px;
+  margin: 10px 70px 0 60px;
   padding: 30px 20px 10px 10px;
 }
 
@@ -233,8 +214,8 @@ ol {
   position: static;
   width: 327px;
   height: 36px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -246,7 +227,7 @@ ol {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
   padding-top: 20px;
 }
 
@@ -265,8 +246,8 @@ ol {
   padding-top: 78px;
   padding-left: 20px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background-image: url(images/img-placeholder.png);
   background-repeat: no-repeat;
   align-items: center;
@@ -275,7 +256,7 @@ ol {
 
 .recent-works ul {
   margin-top: 0;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 ol li {
@@ -286,7 +267,7 @@ body .long-button a {
   flex-direction: column;
   padding-right: 25px;
   color: white;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .about-me {
@@ -318,13 +299,10 @@ body .long-button a {
 }
 
 .getmyresume-button {
-  /* padding-left: 5px;
-  padding-top: 100px;*/
   height: 48px;
   width: 161px;
   left: 24px;
-  /* top: 395px;*/
-  padding: 50px 0px 0px 20px;
+  padding: 50px 0 0 20px;
   margin-top: 20px;
   flex-direction: row;
 }
@@ -334,7 +312,7 @@ body .long-button a {
   margin-bottom: 60px;
   position: static;
   height: 0px;
-  left: 0px;
+  left: 0;
   top: 107px;
   color: #fff;
   width: 600px;
@@ -357,7 +335,7 @@ body .long-button a {
   flex-direction: column;
   color: #fff;
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 0;
   float: left;
   margin-right: 200px;
   justify-content: center;
@@ -367,10 +345,10 @@ body .long-button a {
   flex-direction: row;
   margin-top: 8px;
   margin-left: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   height: 24px;
   width: 114px;
-  left: 0px;
+  left: 0;
   top: 12px;
 }
 
