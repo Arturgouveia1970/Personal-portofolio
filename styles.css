@@ -109,13 +109,10 @@ p {
 }
 
 .text {
-  padding-left: 350px 50px 50px 50px;
+  padding-left: 50px;
   width: 327px;
   margin-left: 50px;
   margin-top: 180px;
-  /*background-image: url("/images/illustration-header-mobile.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;*/
 }
 
 #burger {
@@ -207,7 +204,6 @@ ol {
 
 .projects {
   display: grid;
-  /*flex-direction: column;*/
   color: #fff;
   height: 400px;
   width: 327px;
@@ -303,7 +299,7 @@ body .long-button a {
   display: flex;
   height: 79px;
   width: 327px;
-  left: 0px;
+  left: 0;
   top: 120px;
   padding-left: 15px;
   font-family: "Crete Round", sans-serif;
@@ -332,8 +328,8 @@ body .long-button a {
 }
 
 .solid1 {
-  margin-top: 25px;
-  margin-bottom: 40px;
+  margin-top: 170px;
+  margin-bottom: 90px;
   position: relative;
   height: 0;
   color: #fff;
@@ -364,7 +360,7 @@ body .long-button a {
 
 .about-me .lists ul li {
   flex-direction: row;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 55px;
   margin-bottom: 5px;
   height: 24px;
