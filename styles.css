@@ -166,7 +166,7 @@ hr {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 ol {
@@ -234,7 +234,7 @@ ol {
 .projects p {
   font-size: 16px;
   font-family: inter, sans-serif;
-  font-weight: 400, regular;
+  font-weight: 400;
   width: 295px;
   height: 87px;
   left: 16px;
@@ -252,11 +252,6 @@ ol {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-}
-
-.recent-works ul {
-  margin-top: 0;
-  margin: 24px 0;
 }
 
 ol li {
@@ -311,13 +306,9 @@ body .long-button a {
   margin-top: 40px;
   margin-bottom: 60px;
   position: static;
-  height: 0px;
-  left: 0;
-  top: 107px;
+  height: 0;
   color: #fff;
   width: 600px;
-  left: 49.4560546875px;
-  top: 8.7279052734375px;
   border: 1px solid #fff;
 }
 
