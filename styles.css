@@ -260,18 +260,8 @@ ol {
   justify-content: center;
 }
 
-#projects .projects ul {
-  margin-top: 19px;
-  margin-left: -8px;
-}
-
 ol li {
   padding-right: 10px;
-}
-
-#projects .projects ul {
-  margin-top: 19px;
-  margin-left: -8px;
 }
 
 body .long-button a {
