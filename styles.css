@@ -52,7 +52,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #1c1a19;
   margin: 120px 24px 24px 24px;
@@ -113,14 +113,27 @@ header {
   width: 327px;
   left: 24px;
   top: 223px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin: 0 24px 24px 24px;
+}
+
+.recent-works p {
+  width: 327px;
+  height: 147px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: justify;
+  margin-left: 24px;
 }
 
 .headline .text p {
@@ -162,19 +175,6 @@ header {
   text-align: left;
   margin: 24px 24px 12px 24px;
   color: #091e42;
-}
-
-.recent-works p {
-  width: 327px;
-  height: 147px;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: justify;
-  margin-left: 24px;
 }
 
 .recent-works ul {
@@ -260,7 +260,7 @@ header {
 .text1 ul {
   display: inline-flex;
   list-style: none;
-  margin-top: 12px 75px 70px 16px;
+  margin: 12px 75px 70px 16px;
 }
 
 .text1 ul li {
@@ -287,7 +287,7 @@ header {
   margin-top: 24px;
   background-color: #1c1a19;
   position: absolute;
-  top: 2990px;
+  top: 3260px;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ header {
 }
 
 .solid1 {
-  margin-top: 1380px;
+  margin-top: 1440px;
   margin-bottom: 55px;
   position: absolute;
   height: 0;
@@ -334,7 +334,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   padding-left: 10px;
   padding-right: 10px;
 }
