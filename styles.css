@@ -218,7 +218,6 @@ header {
 .projects {
   display: grid;
   color: #fff;
-
   width: 375px;
   position: relative;
   justify-content: center;
