@@ -218,12 +218,16 @@ header {
 .projects {
   display: grid;
   color: #fff;
-  /* height: 868px;*/
+
   width: 375px;
   position: relative;
   justify-content: center;
   margin-top: -150px;
   margin-bottom: -20px;
+}
+
+.text1 {
+  margin-bottom: -220px;
 }
 
 .projects .text1 {
@@ -242,10 +246,6 @@ header {
 .img-placeholder {
   margin-top: 44px;
   margin-left: 24px;
-}
-
-.text1 {
-  margin-bottom: -220px;
 }
 
 .projects .text1 h3 {
@@ -372,12 +372,9 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  margin-left: 50px;
 }
 
 .lists #skills {
-  margin-top: 48px;
-  margin-left: 50px;
   font-family: Inter, sans-serif, "Times New Roman", Times, serif;
   font-size: 32px;
   font-style: normal;
@@ -387,7 +384,8 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  margin-left: -30px;
+  margin-left: 110px;
+  margin-top: 48px;
 }
 
 .lists .lang li {
@@ -460,11 +458,6 @@ header {
 
 .lists #frames img {
   padding-right: 10px;
-}
-
-.lists #skills {
-  margin-left: 110px;
-  margin-top: 48px;
 }
 
 .lists #skills img {
