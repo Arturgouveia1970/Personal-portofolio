@@ -6,15 +6,18 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
+  width: 375px;
 }
 
 .wrapper {
-  width: 375px;
-  height: 5000px;
+  width: 100%;
+  height: auto; /* 5000px */
 }
 
 header {
@@ -38,13 +41,14 @@ header {
   margin-right: 0;
   margin-left: 0;
   height: 590px;
+  width: 100%;
   background-color: #1c1a19;
   background-image: url("./images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
-.recent-works h1 {
+.recent-works h2 {
   width: 327px;
   height: 83px;
   font-family: "Crete Round", sans-serif;
@@ -58,7 +62,7 @@ header {
   margin: 120px 24px 24px 24px;
 }
 
-.text h1 {
+.text h2 {
   height: 79px;
   width: 327px;
   left: 24px;
@@ -214,12 +218,12 @@ header {
 .projects {
   display: grid;
   color: #fff;
-  height: 868px;
+  /* height: 868px;*/
   width: 375px;
   position: relative;
   justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 120px;
+  margin-top: -150px;
+  margin-bottom: -20px;
 }
 
 .projects .text1 {
@@ -240,6 +244,10 @@ header {
   margin-left: 24px;
 }
 
+.text1 {
+  margin-bottom: -220px;
+}
+
 .projects .text1 h3 {
   height: 81px;
   width: 295px;
@@ -252,9 +260,8 @@ header {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
-  margin-top: 0;
   margin-bottom: 12px;
-  padding-top: 60px;
+  padding-top: 180px;
 }
 
 .text1 ul {
@@ -270,13 +277,14 @@ header {
 }
 
 .projects .btn {
-  position: relative;
   width: 327px;
   height: 48px;
   background-color: #ff6b00;
   color: white;
   font-family: inter, sans-serif;
   font-size: 17px;
+  margin-top: 180px;
+  margin-bottom: -140px;
 }
 
 .about-me {
@@ -284,10 +292,9 @@ header {
   color: #fff;
   height: 2100px;
   width: 375px;
-  margin-top: 24px;
   background-color: #1c1a19;
   position: absolute;
-  top: 3260px;
+  top: 2850px;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
@@ -325,7 +332,7 @@ header {
   margin-top: 360px;
 }
 
-.lists h2 {
+.lists #lang {
   height: 24px;
   width: 257px;
   top: 8px;
@@ -337,6 +344,8 @@ header {
   letter-spacing: 0;
   padding-left: 10px;
   padding-right: 10px;
+  list-style: none;
+  margin-left: 70px;
 }
 
 .lists ul li {
@@ -351,13 +360,34 @@ header {
   line-height: 43px;
 }
 
-.lists #lang {
-  margin-left: 70px;
-}
-
 .lists #frames {
   margin-top: 48px;
   margin-left: 50px;
+  font-family: Inter, sans-serif, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.lists #skills {
+  margin-top: 48px;
+  margin-left: 50px;
+  font-family: Inter, sans-serif, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  margin-left: -30px;
 }
 
 .lists .lang li {
@@ -404,16 +434,20 @@ header {
   margin-left: 118px;
 }
 
-.lists ul .skills2 {
-  margin-left: 150px;
-}
-
-.lists ul .skills3 {
+.lists ul .skills1 {
   margin-left: 135px;
 }
 
+.lists ul .skills2 {
+  margin-left: 140px;
+}
+
+.lists ul .skills3 {
+  margin-left: 128px;
+}
+
 .lists ul .skills4 {
-  margin-left: 150px;
+  margin-left: 140px;
 }
 
 .lists ul .skills5 {
@@ -435,4 +469,15 @@ header {
 
 .lists #skills img {
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 }
