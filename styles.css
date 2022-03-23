@@ -10,20 +10,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid blue;
 }
 
 .wrapper {
   width: 375px;
+  height: 5000px;
 }
 
 header {
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 20px;
- background-color: #3c3a39;
- color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3c3a39;
+  color: white;
 }
 
 .logo a {
@@ -36,7 +36,7 @@ header {
   padding-top: 0px;
   margin-top: 0;
   margin-right: 0;
-  margin-left: 0; 
+  margin-left: 0;
   height: 590px;
   background-color: #1c1a19;
   background-image: url("./images/illustration-header-mobile.png");
@@ -47,9 +47,9 @@ header {
 .headline .text h1 {
   width: 327px;
   height: 124px;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-left: 24px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
@@ -70,6 +70,7 @@ header {
   color: #fff5e1;
   margin-left: 24px;
   width: 327px;
+  margin-bottom: 10px;
 }
 
 .headline .text p {
@@ -91,12 +92,13 @@ header {
 
 .recent-works {
   display: grid;
+  position: relative;
 }
 
 .recent-works h1 {
   width: 327px;
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -113,17 +115,10 @@ header {
   margin-left: 24px;
 }
 
-.recent-works img {
-  width: 327px;
-  height: 237px;
-  margin-left: 24px;
-  margin-top: 80px;
-}
-
 .recent-works h3 {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -147,17 +142,25 @@ header {
   margin-left: 24px;
 }
 
- .recent-works ul {
+.recent-works ul {
+  display: inline-flex;
   list-style: none;
-  display: none;
   padding-left: 0;
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 20px;
-  margin-right: 80px;
+  margin: 0 75px 70px 24px;
+  height: 40px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
 }
 
 .recent-works ul li {
-
+  padding-right: 12px;
+  padding-top: 0;
+  padding-bottom: 22px;
 }
 
 .recent-works .btn {
@@ -170,13 +173,13 @@ header {
   font-family: inter, sans-serif;
   font-size: 17px;
   margin-left: 24px;
-  margin-top: 12px;
+  margin-top: -50px;
 }
 
 .projects {
   display: grid;
   color: #fff;
-  height: 434px;
+  height: 868px;
   width: 375px;
   position: relative;
   justify-content: center;
@@ -197,12 +200,17 @@ header {
   justify-content: center;
 }
 
+.img-placeholder {
+  margin-top: 44px;
+  margin-left: 24px;
+}
+
 .projects .text1 h3 {
   height: 81px;
   width: 295px;
   left: 16px;
   top: 8px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -218,7 +226,6 @@ header {
   padding-top: 72px;
   height: 87px;
   margin-bottom: 75px;
-
 }
 
 .text1 ul {
@@ -246,15 +253,17 @@ header {
 }
 
 .about-me {
-  
   flex-direction: row;
   color: #fff;
-  /*height: 1901px;*/
+  height: 2000px;
   width: 375px;
   margin-top: 24px;
   background-color: #1c1a19;
   position: absolute;
-  top: 2042px;
+  top: 2990px;
+  background-image: url("./images/illustration-about-me-mobile.png");
+  background-position: 100% 23%;
+  background-repeat: no-repeat;
 }
 
 .text h1 {
@@ -262,14 +271,14 @@ header {
   width: 327px;
   left: 24px;
   top: 120px;
-  font-family: 'crete round', sans-serif;
+  font-family: "crete round", sans-serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
   line-height: 88px;
   text-align: left;
   color: #ff6b00;
-  margin:  120px 24px 24px 24px;
+  margin: 120px 24px 24px 24px;
 }
 
 .text p {
@@ -304,9 +313,9 @@ header {
 }
 
 .solid1 {
-  margin-top: 170px;
-  margin-bottom: 90px;
-  position: relative;
+  margin-top: 1380px;
+  margin-bottom: 55px;
+  position: absolute;
   height: 0;
   color: #fff;
   width: 327px;
@@ -315,27 +324,27 @@ header {
 }
 
 .lists {
-  margin-left: 96px;
-
+  margin-bottom: 15px;
+  margin-top: 360px;
 }
 
 .lists h2 {
   height: 24px;
-  width: 227px;
-  left: 42px;
+  width: 257px;
   top: 8px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0em;
-  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .lists ul li {
   list-style: none;
-  margin-left: 45px;
+  margin-top: 48px;
   height: 24px;
   top: 12px;
   font-family: Inter, sans-serif;
@@ -343,455 +352,82 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
-  letter-spacing: 0em;
-  text-align: center;
 }
 
-/*.about-me {
-  display: grid;
-  flex-direction: column;
-  width: 375px;
-  padding-top: 50px;
-  margin-top: 20px;
-  height: 1901px;
-  background-color: #1c1a19;
-  background-image: url("./images/illustration-about-me-mobile.png");
-  background-position: 100% 28%;
-  background-repeat: no-repeat;
-  
+.lists #lang {
+  margin-left: 70px;
 }
 
-ul {
-  display: inline-flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-right: 30px;
-  padding: 20px;
+.lists #frames {
+  margin-top: 48px;
+  margin-left: 50px;
 }
 
-li a {
-  flex-direction: column;
-  padding-right: 25px;
-  color: white;
-  text-decoration: none;
+.lists #skills {
+  margin-top: 88px;
+  margin-left: 120px;
 }
 
-/*.menu {
-  padding-right: 20px;
+.lists .lang li {
+  margin-left: 140px;
 }
 
-.header img {
-  height: 16px;
-  width: 16px;
-  left: 4px;
-  top: 17px;
-  padding-right: 30px;
-  padding-left: 150px;
+.lists .frames li {
+  margin-left: 120px;
 }
 
-.logo {
-  padding-left: 30px;
+.lists .skills li {
+  margin-left: 140px;
 }
 
-.logo a {
-  color: white;
-  text-decoration: none;
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: center;
+.lists ul .lang1 {
+  margin-left: 130px;
 }
 
-.headline {
-  display: grid;
-  padding-top: 0px;
-  margin-top: 0;
-  /* margin-right: 24px;
-  margin-left: 24px; 
-  height: 100vh;
-  width: ;
-  background-color: black;
-  background-image: url("./images/illustration-header-mobile.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+.lists ul .lang2 {
+  margin-left: 150px;
 }
 
-h1 {
-  font-family: "Crete round", sans-serif;
-  color: #ff6b00;
-  height: 124px;
-  width: 327px;
-  left: 24px;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  letter-spacing: 0.3700000047683716px;
-  text-align: left;
+.lists ul .lang3 {
+  margin-left: 150px;
 }
 
-h4 {
-  font-family: Roboto, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #fff5e1;
-  padding-top: 15px;
+.lists ul .lang4 {
+  margin-left: 155px;
 }
 
-p {
-  font-family: Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #fff;
-  width: 327px;
-  padding-top: 15px;
+.lists ul .frames2 {
+  margin-left: 100px;
 }
 
-.text {
-  padding-left: 24px;
-  width: 327px;
-  margin-right: 24px;
-  margin-top: 180px;
+.lists ul .frames3 {
+  margin-left: 130px;
 }
 
-.text img {
-  height: 40px;
-  width: 200px;
-  left: 24px;
-  top: 430px;
-  border-radius: 0px;
+.lists ul .frames4 {
+  margin-left: 115px;
 }
 
-#icons {
-  display: flex;
-  padding-left: 60px;
-  padding-top: 15px;
+.lists ul .frames5 {
+  margin-left: 118px;
 }
 
-.icons {
+.lists ul .skills3 {
+  margin-left: 125px;
+}
+
+.lists #lang img {
   padding-right: 10px;
-  justify-content: space-between;
 }
 
-.all-projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 375px;
-}
-
-.recent-works {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  flex-direction: column;
-  width: 375px; 
-  margin-left: 24px;
-}
-
-.recent-works p {
-  color: #091e42;
-  text-align: justify;
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 60px;
-  position: static;
-  width: 327px;
-  height: 0;
-  left: 0;
-  top: 107px;
-}
-
-.recent-works h1 {
-  /* position: static; 
-  width: 327px;
-  height: 83px;
-  left: 0;
-  top: 0;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  /* display: flex; 
-  align-items: center;
-  color: #1c1a19;
-  /* flex: none; 
-  order: 0;
-  flex-grow: 0;
-  padding-top: 120px;
-}
-
-.recent-works .btn {
-  width: 124px;
-  height: 48px;
-  padding: 12px;
-  gap: 10px;
-  background-color: #ff6b00;
-  color: white;
-  font-family: inter, sans-serif;
-  font-size: 17px;
-}
-
-.projects .btn {
-  width: 327px;
-  height: 48px;
-  height: 48px;
-  padding: 12px;
-  gap: 10px;
-  background-color: #ff6b00;
-  color: white;
-  font-family: inter, sans-serif;
-  font-size: 17px;
-}
-
-.recent-works ul {
-  list-style: none;
-  display: inline-flex;
-  /* justify-self: flex-start; 
-  padding-left: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: 80px;
-}
-
-.recent-works h3 {
-  position: static;
-  width: 327px;
-  height: 36px;
-  left: 0;
-  top: 0;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #091e42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
-  padding-top: 20px;
-}
-
-.projects {
-  display: grid;
-  color: #fff;
-  height: 400px;
-  width: 375px;
-  margin-left: 24px;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  justify-content: center;
-}
-
-.projects .text1 h3 {
-  position: static;
-  width: 327px;
-  height: 36px;
-  left: 0;
-  top: 0;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 12px 0;
-  padding-top: 20px;
-}
-
-.projects p {
-  font-size: 16px;
-  font-family: inter, sans-serif;
-  font-weight: 400;
-  width: 295px;
-  height: 87px;
-  left: 16px;
-  top: 101px;
-  text-align: left;
-}
-
-.projects .text1 {
-  padding-top: 78px;
-  padding-left: 20px;
-  width: 327px;
-  left: 0;
-  top: 0;
-  background-image: url("./images/img-placeholder.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  align-items: center;
-  justify-content: center;
-}
-
-.recent-works ul li {
+.lists #frames img {
   padding-right: 10px;
-  height: 40px;
-  width: 49px;
-  left: 0px;
-  top: 0px;
-  padding: 10px, 12px, 10px, 12px;
 }
 
-.about-me {
-  display: grid;
-  padding-top: 50px;
-  margin-top: 20px;
-  height: 1901px;
-  background-color: #1c1a19;
-  background-image: url("./images/illustration-about-me-mobile.png");
-  background-position: 100% 28%;
-  background-repeat: no-repeat;
-  width: 375px;
+.lists #skills {
+  margin-left: 90px;
 }
 
-.about-me .text {
-  /*background-image: url("./images/illustration-about-me-mobile.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-}
-
-.about-me h1 {
-  display: flex;
-  height: 79px;
-  width: 327px;
-  left: 0;
-  top: 120px;
-  padding-left: 15px;
-  font-family: "Crete Round", sans-serif;
-  font-weight: 400;
-  font-size: 72px;
-}
-
-.about-me p {
-  height: 148px;
-  width: 327px;
-  left: 24px;
-  top: 223px;
-  text-align: left;
-  padding-left: 20px;
-  font-family: inter, sans-serif;
-  font-size: 16px;
-}
-
-.text .Med-btn {
-  height: 48px;
-  width: 161px;
-  left: 24px;
-  padding: 12px;
-  margin-top: 10px;
-  margin-left: 22px;
-  flex-direction: row;
-  font-family: inter, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  align-items: center;
-  background-color: #ff6b00;
-  color: #fff;
-}
-
-.solid1 {
-  margin-top: 170px;
-  margin-bottom: 90px;
-  position: relative;
-  height: 0;
-  color: #fff;
-  width: 550px;
-  border: 1px solid #fff;
-  top: -35%;
-}
-
-.about-me .lists {
-  color: #fff;
-  /* padding-top: 60px; 
-  padding-left: 50px;
-  width: 100%;
-  padding-bottom: 100px;
-  margin-top: -390px;
-  justify-content: center;
-}
-
-.about-me .lists ul {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  margin-top: -18px;
-  margin-left: 0;
-  /* float: left; 
-  margin-right: 24px;
-  justify-content: left;
-}
-
-.about-me .lists ul li {
-  flex-direction: row;
-  margin-top: 0;
-  margin-left: 55px;
-  margin-bottom: 5px;
-  height: 24px;
-  width: 144px;
-  left: 0;
-  top: 12px;
-  font-family: inter, sans-serif;
-  font-size: 20px;
-  padding: 10px;
-}
-
-/* #projects .projects ul {
-  margin-top: 19px;
-  margin-left: -8px;
-} 
-
-.about-me .lists h2 {
-  display: flex;
-  margin-top: -28px;
-  margin-bottom: 20px;
-  height: 24px;
-  width: 164px;
-  left: 50px;
-  top: 9px;
-  font-family: InaiMathi, sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  padding-bottom: 15px;
-  padding-top: 10px;
-}
-
-.about-me .lists h2 img {
-  width: 18px;
-  height: 18px;
-  padding-right: 12px;
-  margin-top: auto;
-}
-
-.about-me .lists #skill {
-  margin-left: 40px;
-}
-
-@media screen and (max-width: 768px) {
-  .menu ul {
-    display: none;
-  }
+.lists #skills img {
+  padding-right: 10px;
 }
