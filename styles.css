@@ -289,11 +289,11 @@ header {
 .about-me {
   flex-direction: row;
   color: #fff;
-  height: 2100px;
+  height: 2200px;
   width: 375px;
   background-color: #1c1a19;
   position: absolute;
-  top: 2850px;
+  top: 2950px;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ header {
 }
 
 .solid1 {
-  margin-top: 1440px;
+  margin-top: 1510px;
   margin-bottom: 55px;
   position: absolute;
   height: 0;
@@ -328,7 +328,7 @@ header {
 
 .lists {
   margin-bottom: 15px;
-  margin-top: 360px;
+  margin-top: 420px;
 }
 
 .lists #lang {
@@ -343,11 +343,13 @@ header {
   letter-spacing: 0;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 40px;
   list-style: none;
   margin-left: 70px;
+  margin-bottom: 150px;
 }
 
-.lists ul li {
+.about-me ul li {
   list-style: none;
   margin-top: 48px;
   height: 24px;
@@ -360,7 +362,7 @@ header {
 }
 
 .lists #frames {
-  margin-top: 48px;
+  margin-top: 18px;
   margin-left: 50px;
   font-family: Inter, sans-serif, "Times New Roman", Times, serif;
   font-size: 32px;
@@ -371,6 +373,8 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
+  padding-top: 220px;
+  padding-bottom: 70px;
 }
 
 .lists #skills {
@@ -385,70 +389,55 @@ header {
   list-style: none;
   margin-left: 110px;
   margin-top: 48px;
+  padding-top: 335px;
 }
 
-.lists .lang li {
-  margin-left: 140px;
+.about-me ul .lang1 {
+  margin-left: 50px;
 }
 
-.lists .frames li {
-  margin-left: 120px;
+.about-me ul .lang2 {
+  margin-left: 75px;
 }
 
-.lists .skills li {
-  margin-left: 140px;
+.about-me ul .lang3 {
+  margin-left: 75px;
 }
 
-.lists ul .lang1 {
-  margin-left: 130px;
+.about-me ul .lang4 {
+  margin-left: 78px;
 }
 
-.lists ul .lang2 {
-  margin-left: 150px;
+.about-me ul .frames1 {
+  margin-left: 70px;
 }
 
-.lists ul .lang3 {
-  margin-left: 150px;
+.about-me ul .frames2 {
+  margin-left: 50px;
 }
 
-.lists ul .lang4 {
-  margin-left: 155px;
+.about-me ul .frames3 {
+  margin-left: 80px;
 }
 
-.lists ul .frames2 {
-  margin-left: 100px;
+.about-me ul .frames4 {
+  margin-left: 60px;
 }
 
-.lists ul .frames3 {
-  margin-left: 130px;
+.about-me ul .frames5 {
+  margin-left: 60px;
 }
 
-.lists ul .frames4 {
-  margin-left: 115px;
+.about-me ul .skills1 {
+  margin-left: 7px;
 }
 
-.lists ul .frames5 {
-  margin-left: 118px;
+.about-me ul .skills2 {
+  margin-left: 15px;
 }
 
-.lists ul .skills1 {
-  margin-left: 135px;
-}
-
-.lists ul .skills2 {
-  margin-left: 140px;
-}
-
-.lists ul .skills3 {
-  margin-left: 128px;
-}
-
-.lists ul .skills4 {
-  margin-left: 140px;
-}
-
-.lists ul .skills5 {
-  margin-left: 130px;
+.about-me ul .skills4 {
+  margin-left: 8px;
 }
 
 .lists #lang img {
@@ -466,10 +455,10 @@ header {
 @media only screen and (max-width: 480px) {
   html,
   body {
-    width: 100%;
+    width: 375px;
     height: auto;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: inherit;
   }
 }
