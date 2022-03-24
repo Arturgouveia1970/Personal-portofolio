@@ -363,7 +363,7 @@ header {
 
 .lists #frames {
   margin-top: 18px;
-  margin-left: 60px;
+  margin-left: 50px;
   font-family: Inter, sans-serif, "Times New Roman", Times, serif;
   font-size: 32px;
   font-style: normal;
@@ -387,14 +387,14 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-top: 48px;
   padding-top: 5px;
 }
 
 .lists .lang1 {
   margin-left: 120px;
-  margin-top: 8;
+  margin-top: 8px;
 }
 
 .about-me ul .lang2 {
@@ -451,23 +451,11 @@ header {
   margin-left: 125px;
 }
 
-/*.lists #lang img {
-  padding-right: 10px;
-}
-
-.lists #frames img {
-  padding-right: 10px;
-}
-
-.lists #skills img {
-  padding-right: 10px;
-}*/
-
 span {
   color: orangered;
   width: 18px;
   height: 18px;
-  padding-right: 2px;
+  padding-right: 12px;
 }
 
 @media only screen and (max-width: 480px) {
