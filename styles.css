@@ -345,7 +345,7 @@ header {
   padding-right: 10px;
   padding-bottom: 40px;
   list-style: none;
-  margin-left: 70px;
+  margin-left: 90px;
   margin-bottom: 150px;
 }
 
@@ -363,7 +363,7 @@ header {
 
 .lists #frames {
   margin-top: 18px;
-  margin-left: 50px;
+  margin-left: 90px;
   font-family: Inter, sans-serif, "Times New Roman", Times, serif;
   font-size: 32px;
   font-style: normal;
@@ -387,57 +387,65 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  margin-left: 110px;
+  margin-left: 140px;
   margin-top: 48px;
   padding-top: 335px;
 }
 
 .about-me ul .lang1 {
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .about-me ul .lang2 {
-  margin-left: 75px;
-}
-
-.about-me ul .lang3 {
-  margin-left: 75px;
-}
-
-.about-me ul .lang4 {
-  margin-left: 78px;
-}
-
-.about-me ul .frames1 {
-  margin-left: 70px;
-}
-
-.about-me ul .frames2 {
   margin-left: 50px;
 }
 
+.about-me ul .lang3 {
+  margin-left: 50px;
+}
+
+.about-me ul .lang4 {
+  margin-left: 53px;
+}
+
+.about-me ul .frames1 {
+  margin-left: 45px;
+}
+
+.about-me ul .frames2 {
+  margin-left: 25px;
+}
+
 .about-me ul .frames3 {
-  margin-left: 80px;
+  margin-left: 55px;
 }
 
 .about-me ul .frames4 {
-  margin-left: 60px;
+  margin-left: 35px;
 }
 
 .about-me ul .frames5 {
-  margin-left: 60px;
+  margin-left: 35px;
 }
 
 .about-me ul .skills1 {
-  margin-left: 7px;
+  margin-left: -7px;
 }
 
 .about-me ul .skills2 {
-  margin-left: 15px;
+  margin-left: 2px;
+}
+
+.about-me ul .skills3 {
+  margin-left: -15px;
 }
 
 .about-me ul .skills4 {
-  margin-left: 8px;
+  margin-left: -8px;
+}
+
+.about-me ul .skills5 {
+  margin-left: -18px;
 }
 
 .lists #lang img {
