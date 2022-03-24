@@ -343,10 +343,10 @@ header {
   letter-spacing: 0;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   list-style: none;
-  margin-left: 90px;
-  margin-bottom: 150px;
+  margin-left: 70px;
+  margin-bottom: 50px;
 }
 
 .about-me ul li {
@@ -363,7 +363,7 @@ header {
 
 .lists #frames {
   margin-top: 18px;
-  margin-left: 90px;
+  margin-left: 60px;
   font-family: Inter, sans-serif, "Times New Roman", Times, serif;
   font-size: 32px;
   font-style: normal;
@@ -373,8 +373,8 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  padding-top: 220px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .lists #skills {
@@ -387,68 +387,71 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   list-style: none;
-  margin-left: 140px;
+  margin-left: 100px;
   margin-top: 48px;
-  padding-top: 335px;
+  padding-top: 5px;
 }
 
-.about-me ul .lang1 {
-  margin-left: 25px;
+.lists .lang1 {
+  margin-left: 120px;
+  margin-top: 8;
 }
 
 .about-me ul .lang2 {
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .about-me ul .lang3 {
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .about-me ul .lang4 {
-  margin-left: 53px;
+  margin-left: 153px;
 }
 
 .about-me ul .frames1 {
-  margin-left: 45px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .about-me ul .frames2 {
-  margin-left: 25px;
+  margin-left: 105px;
 }
 
 .about-me ul .frames3 {
-  margin-left: 55px;
+  margin-left: 135px;
 }
 
 .about-me ul .frames4 {
-  margin-left: 35px;
+  margin-left: 120px;
 }
 
 .about-me ul .frames5 {
-  margin-left: 35px;
+  margin-left: 118px;
 }
 
 .about-me ul .skills1 {
-  margin-left: -7px;
+  margin-left: 137px;
+  margin-top: 50px;
 }
 
 .about-me ul .skills2 {
-  margin-left: 2px;
+  margin-left: 140px;
 }
 
 .about-me ul .skills3 {
-  margin-left: -15px;
+  margin-left: 125px;
 }
 
 .about-me ul .skills4 {
-  margin-left: -8px;
+  margin-left: 140px;
 }
 
 .about-me ul .skills5 {
-  margin-left: -18px;
+  margin-left: 125px;
 }
 
-.lists #lang img {
+/*.lists #lang img {
   padding-right: 10px;
 }
 
@@ -458,13 +461,13 @@ header {
 
 .lists #skills img {
   padding-right: 10px;
-}
+}*/
 
 span {
   color: orangered;
   width: 18px;
   height: 18px;
-  padding-right: 20px;
+  padding-right: 2px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -474,6 +477,6 @@ span {
     height: auto;
     margin: 0;
     padding: 0;
-    overflow-x: inherit;
+    overflow-x: hidden;
   }
 }
