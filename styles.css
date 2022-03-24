@@ -460,6 +460,13 @@ header {
   padding-right: 10px;
 }
 
+span {
+  color: orangered;
+  width: 18px;
+  height: 18px;
+  padding-right: 20px;
+}
+
 @media only screen and (max-width: 480px) {
   html,
   body {
