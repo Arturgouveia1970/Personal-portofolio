@@ -7,40 +7,125 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-  <header>
-    <div class="logo"><a href="#logo">Artur Gouveia</a></div>
-    <nav class="menu">
-      <ul>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-      <img id="burger" src="images/Icons/hamberguer.png" alt="icon for links">
-    </nav>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo"><a href="#logo">Artur Gouveia</a></div>
+      <nav class="menu">
+        <img src="/images/Icons/Icon-Menu.png" alt="hamburguer">
+      </nav>
+    </header>
 
-  </header>
-
-  <section class="headline">
-    <div class="text">
+    <section class="headline">
+      <div class="text">
         <h1>Hey there.<br>I am Artur</h1>
         <h4>I am a software Developer</h4>
         <p>I can help you build a product , feature or website Look
-             through some of my work and experience! If you like what
-             you see and have a project you need coded, 
-             don’t hestiate to contact me.
+         through some of my work and experience! If you like what
+         you see and have a project you need coded, 
+         don’t hestiate to contact me.
         </p>
-        
-        <ul id="icons">
-          <li><img class="icons" src="images/icons/github.png" alt="github's icon"></li>
-          <li><img class="icons" src="images/Icons/linkedin.png" alt="linkin's icon"></li>
-          <li><img class="icons" src="images/ve.png" alt="ve's icon"></li>
-          <li><img class="icons" src="images/Icons/twitter.png" alt="twitter's icon"></li>
-          <li><img class="icons" src="images/Icons/em.png" alt="em's icon"></li>
-        </ul>
-    </div>
+        <img src="images/Social-Media.png" alt="social media icons">
+      </div>
+    </section>
 
-  </section>
-    
-</body>
+    <div class="all-projects"></div>
+      <section class="recent-works">
+        <h2>My Recent Works</h2>
+        <hr class="solid">
+        <div class="img-placeholder">
+          <img src="images/Card-Works.png" alt="card works">
+        </div>
+        <h3>Multi-Post Stories</h3>
+        <p>A daily selection of privately personalized reads; no accounts
+          or sign-ups required. Has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer took a standard
+          dummy text.
+        </p>
+        <ul class="icons">
+          <li><img class="css" src="images/css-logo.png" alt="css logo"></li>
+          <li><img class="html" src="images/html.png" alt="html logo"></li>
+          <li><img class="bootstrap" src="images/bootstrap.png" alt="bootstrap logo"></li>
+          <li><img class="ruby" src="images/ruby.png" alt="ruby logo"></li>
+        </ul>
+        <button type="button" class="btn">See Project</button>
+      </section>
+
+      <section class="projects">
+        <div class="text1">
+          <h3 class="title-post">Professional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or
+          sign-ups required.has been the industry's standard
+          </p>
+          <ul class="icons">
+            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
+            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
+            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
+          </ul>
+        </div>
+        <button type="button" class="btn">See Project</button> 
+        
+        <div class="text1">
+          <h3 class="title-post">Professional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or
+          sign-ups required.has been the industry's standard
+          </p>
+          <ul class="icons">
+            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
+            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
+            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
+          </ul>
+        </div>
+        <button type="button" class="btn">See Project</button> 
+        
+        <div class="text1">
+          <h3 class="title-post">Professional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or
+          sign-ups required.has been the industry's standard
+          </p>
+          <ul class="icons">
+            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
+            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
+            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
+          </ul>
+        </div>
+        <button type="button" class="btn">See Project</button> 
+      </section>
+    </div>
+  
+    <section class="about-me">
+      <div class="text">
+        <h2>About me</h2>
+        <p>Hello I'm a software developer! I can help you build a product, feature or website Look
+          through some of my work and experience! If you like what
+          you see and have a project you need coded, 
+           don’t hestiate to contact me.
+        </p>
+        <button type="button" class="Med-btn">Get my Resume</button>
+      </div>
+      <hr class="solid1">
+      <ul class="lists">
+        <li id="lang"><span>&#9830;</span>Languages</li>
+        <li class="lang1">Javascript</li>
+        <li class="lang2">Ruby</li>
+        <li class="lang3">Html</li>
+        <li class="lang4">Css</li>
+        <li id="frames"><span>&#9632;</span>Frameworks</li>
+        <li class="frames1">Bootstrap</li>
+        <li class="frames2">Ruby on Rails</li>
+        <li class="frames3">RSPec</li>
+        <li class="frames4">CapyBara</li>
+        <li class="frames5">Selenium</li>
+        <li id="skills"><span>&#9679;</span>Skills</li>
+        <li class="skills1">CodeKit</li>
+        <li class="skills2">Github</li>
+        <li class="skills3">Codepen</li>
+        <li class="skills4">Gitlab</li>
+        <li class="skills5">Terminal</li>
+      </ul>
+          
+    </section> 
+
+  </body>
 </html>
