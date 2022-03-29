@@ -498,6 +498,8 @@ form input {
   top: 20px;
   font-family: inter, sans-serif;
   padding-bottom: 15px;
+  padding-inline: 12px;
+  border-bottom: 1px solid #dbd8d7;
 }
 
 label {
@@ -510,10 +512,15 @@ textarea {
   /* align multiple text fields with their labels */
   vertical-align: top;
   height: 5em;
+  background-color: #fbf8f7;
+  width: 327px;
+  height: 114px;
+  border: none;
+  padding-inline: 12px;
 }
 
 form button {
-  width: 107px;
+  width: 131px;
   height: 48px;
   background: #ff6b00;
   color: #fff;
@@ -524,8 +531,9 @@ form button {
   line-height: 0;
   text-align: center;
   letter-spacing: 3%;
-  margin-left: 95px;
+  margin-left: 90px;
   border: 0;
+  padding: 12px;
 }
 
 form button:hover {
