@@ -92,6 +92,20 @@ header {
   color: #ff6b00;
 }
 
+.form h4 {
+  margin-top: 2530px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+  margin-left: 24px;
+}
+
 .headline .text h4 {
   font-family: Roboto, sans-serif;
   font-size: 24px;
@@ -531,20 +545,6 @@ form button:active {
 
 .form .bottom-line {
   margin-left: 115px;
-}
-
-.form h4 {
-  margin-top: 2530px;
-  font-family: Inter, sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  text-align: center;
-  width: 327px;
-  height: 216px;
-  color: #172b4d;
-  margin-left: 24px;
 }
 
 span {
