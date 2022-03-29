@@ -511,7 +511,6 @@ label {
 textarea {
   /* align multiple text fields with their labels */
   vertical-align: top;
-  height: 5em;
   background-color: #fbf8f7;
   width: 327px;
   height: 114px;
