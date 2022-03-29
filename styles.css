@@ -451,6 +451,110 @@ header {
   margin-left: 125px;
 }
 
+form {
+  margin-top: 43px;
+  width: 375px;
+  padding: 1em;
+  margin-left: 24px;
+}
+
+form input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 30px;
+  top: 20px;
+  font-family: inter, sans-serif;
+  padding-bottom: 15px;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  /* align multiple text fields with their labels */
+  vertical-align: top;
+  height: 5em;
+}
+
+form button {
+  margin-left: 0.5em;
+  width: 107px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  text-align: center;
+  letter-spacing: 3%;
+  margin-left: 95px;
+  border: 0;
+}
+
+form button:hover {
+  border: 1px solid black;
+}
+
+form button:active {
+  background: #fff;
+  color: #ff6b00;
+}
+
+.form .langicon2 {
+  position: relative;
+  margin-left: 84px;
+  margin-top: 97px;
+}
+
+.form .bottom-line {
+  margin-left: 115px;
+}
+
+.form p {
+  margin-top: 2530px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 327px;
+  height: 216px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 24px;
+}
+
 span {
   color: orangered;
   width: 18px;
