@@ -92,6 +92,20 @@ header {
   color: #ff6b00;
 }
 
+.form h4 {
+  margin-top: 2530px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+  margin-left: 24px;
+}
+
 .headline .text h4 {
   font-family: Roboto, sans-serif;
   font-size: 24px;
@@ -181,6 +195,12 @@ header {
   color: #091e42;
 }
 
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .recent-works ul {
   display: inline-flex;
   list-style: none;
@@ -194,6 +214,10 @@ header {
   font-style: normal;
   font-weight: 500;
   text-align: left;
+}
+
+form li + li {
+  margin-top: 2em;
 }
 
 .recent-works ul li {
@@ -449,6 +473,85 @@ header {
 
 .about-me ul .skills5 {
   margin-left: 125px;
+}
+
+form {
+  margin-top: 43px;
+  width: 375px;
+  padding: 1em;
+  margin-left: 24px;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+form input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 30px;
+  top: 20px;
+  font-family: inter, sans-serif;
+  padding-bottom: 15px;
+  padding-inline: 12px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+textarea {
+  /* align multiple text fields with their labels */
+  vertical-align: top;
+  background-color: #fbf8f7;
+  width: 327px;
+  height: 114px;
+  border: none;
+  padding-inline: 12px;
+}
+
+form button {
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  text-align: center;
+  letter-spacing: 3%;
+  margin-left: 90px;
+  border: 0;
+  padding: 12px;
+}
+
+form button:hover {
+  border: 1px solid black;
+}
+
+form button:active {
+  background: #fff;
+  color: #ff6b00;
+}
+
+.form .langicon2 {
+  position: relative;
+  margin-left: 84px;
+  margin-top: 97px;
+}
+
+.form .bottom-line {
+  margin-left: 115px;
 }
 
 span {
