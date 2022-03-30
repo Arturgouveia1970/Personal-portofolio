@@ -537,6 +537,7 @@ form button {
 
 form button:hover {
   border: 1px solid black;
+  color: black;
 }
 
 form button:active {
