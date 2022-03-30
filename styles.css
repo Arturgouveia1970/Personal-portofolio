@@ -317,7 +317,7 @@ form li + li {
   width: 375px;
   background-color: #1c1a19;
   position: absolute;
-  top: 2950px;
+  top: 4380px;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
@@ -571,12 +571,394 @@ span {
     padding: 0;
     overflow-x: hidden;
   }
+
+  .menu ul,
+  .headline ul,
+  .menu .rec,
+  .recent-works-2,
+  .all-projects .projects-2 {
+    display: none;
+  }
 }
+
+/* *******************************************************
+/* desktop version
+********************************************************+ */
 
 @media only screen and (min-width: 768px) {
   html,
   body {
-    width: 100%;
+    width: 1440px;
     height: auto;
+  }
+
+  .header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    align-items: center;
+    padding: 20px;
+    background-color: #3c3a39;
+    color: white;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+  }
+
+  .menu li {
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .headline {
+    height: 798px;
+    background-image: url("./images/Illustration-header.png");
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+  }
+
+  .headline ul {
+    /*display: flex;
+    flex-direction: column;*/
+    position: absolute;
+    left: 2.5%;
+    right: 96.25%;
+    top: 7.7%;
+    bottom: 91.87%;
+    margin-top: 290px;
+    margin-left: 36px;
+  }
+
+  .headline ul li {
+    margin-bottom: 10px;
+  }
+
+  .headline .text h1 {
+    font-family: "Crete Round", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 566px;
+    margin-left: 150px;
+  }
+
+  .headline .text h4 {
+    width: 566px;
+    height: 24px;
+    top: 376px;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 150px;
+  }
+
+  .headline .text p {
+    width: 566px;
+    height: 123px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 150px;
+  }
+
+  .text img {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 150px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .menu .burger,
+  .img-placeholder img,
+  .recent-works,
+  .all-projects .projects {
+    display: none;
+  }
+
+  .header ul {
+    margin-left: 150px;
+    padding-right: 20px;
+    margin-right: 170px;
+  }
+
+  header ul li {
+    padding: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .menu .rec {
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 415px;
+  }
+
+  /*.recent-works {
+    display: flex;
+    width: 684px;
+    height: 448px;
+  }*/
+
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 364px;
+    height: auto;
+  }
+
+  /*.recent-works {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }*/
+
+  .recent-works-2 {
+    display: grid;
+    margin-left: 150px;
+  }
+
+  .recent-works-2 h2 {
+    width: 321px;
+    height: 52px;
+    font-family: Crete Round;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .recent-works-2 img {
+    margin-top: 50px;
+    margin-left: 0;
+    float: left;
+  }
+
+  .recent-works-2 hr {
+    width: 794px;
+    margin-top: -23px;
+    margin-left: 360px;
+  }
+
+  .recent-works-2 h3 {
+    width: 448px;
+    font-family: "Crete Round", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    height: 48px;
+    margin-left: 730px;
+    margin-top: -450px;
+  }
+
+  .recent-works-2 p {
+    width: 448px;
+    height: 140px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 730px;
+    margin-top: -370px;
+  }
+
+  .recent-works-2 ul {
+    display: flex;
+    list-style: none;
+    margin-left: 730px;
+    margin-top: -250px;
+  }
+
+  .recent-works-2 li {
+    padding-right: 10px;
+  }
+
+  .recent-works-2 .btn {
+    width: 124px;
+    height: 48px;
+    background-color: #f55800;
+    color: #fff;
+    border: none;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 730px;
+  }
+
+  .recent-works-2 .btn:hover {
+    border: 2px solid blue;
+  }
+
+  .projects-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 37px;
+    column-gap: 24px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+
+  .projects-2 .proj-1 {
+  }
+
+  .projects-2 .proj-1 .btn-2 {
+    position: absolute;
+    width: 369px;
+    height: 58px;
+    background-color: #f55800;
+    color: #fff;
+    border: none;
+    margin-top: -59px;
+  }
+
+  .projects-2 .proj-1 .btn-2:hover {
+    border: 2px solid blue;
+  }
+
+  .projects-2 .proj-25 {
+    width: 369px;
+    height: 435px;
+    padding-top: 78px;
+    padding-left: 20px;
+    left: 0;
+    top: 0;
+    background-image: url("./images/Img-Placeholder25.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-2 .proj-36 {
+    width: 369px;
+    height: 435px;
+    padding-top: 78px;
+    padding-left: 20px;
+    left: 0;
+    top: 0;
+    background-image: url("./images/Img-Placeholder-36.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-2 .proj-4 {
+    width: 369px;
+    height: 435px;
+    padding-top: 78px;
+    padding-left: 20px;
+    left: 0;
+    top: 0;
+    background-image: url("./images/Img-Placeholder-4.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-2 .proj h3 {
+    width: 337px;
+    font-family: "Crete Round", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #fff;
+    margin-top: 100px;
+  }
+
+  .projects-2 .proj-36 h3 {
+    margin-top: 145px;
+  }
+
+  .projects-2 .proj p {
+    width: 337px;
+    height: 72px;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #fff;
+  }
+
+  .projects-2 .proj ul {
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+  }
+
+  .projects-2 .proj ul li {
+    padding-right: 10px;
   }
 }
