@@ -576,7 +576,10 @@ span {
   .headline ul,
   .menu .rec,
   .recent-works-2,
-  .all-projects .projects-2 {
+  .all-projects .projects-2,
+  .form ul .first-name,
+  .form ul .last-name,
+  .about-me .bottomline-2 {
     display: none;
   }
 }
@@ -590,6 +593,8 @@ span {
   body {
     width: 1440px;
     height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   .header {
@@ -714,7 +719,9 @@ span {
   .menu .burger,
   .img-placeholder img,
   .recent-works,
-  .all-projects .projects {
+  .all-projects .projects,
+  .form ul .name,
+  .form .bottom-line {
     display: none;
   }
 
@@ -863,9 +870,6 @@ span {
     margin-top: 30px;
   }
 
-  .projects-2 .proj-1 {
-  }
-
   .projects-2 .proj-1 .btn-2 {
     position: absolute;
     width: 369px;
@@ -961,4 +965,280 @@ span {
   .projects-2 .proj ul li {
     padding-right: 10px;
   }
+
+  .about-me {
+    width: 1440px;
+    height: 1195px;
+    background:#262626;
+    position: absolute;
+    top: 2480px;
+    background-image: url("./images/Group-1.png");
+    background-repeat: no-repeat;
+    background-position: right 11%;
+  }
+  
+  .about-me h2 {
+    width: 566px;
+    height: 78px;
+    margin-left: 150px;
+    top: 150px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #f55800;
+  }
+
+  .about-me p {
+    width: 566px;
+    height: 148px;
+    top: 232px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 150px;
+  }
+
+  .about-me .Med-btn {
+    margin-left: 150px;
+  }
+
+  .about-me .solid1 {
+    width: 1156px;
+    top: 9px;
+    position: absolute;
+    border: 1px solid #fff;
+    margin-top: 550px;
+    margin-left: 150px;
+  }
+
+  .about-me #lang {
+    position: absolute;
+    width: 228px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 650px;
+  }
+
+  .about-me #frames {
+    position: absolute;
+    width: 228px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 565px;
+    margin-top: 600px;
+  }
+
+  .about-me #skills {
+    position: absolute;
+    width: 228px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 1015px;
+    margin-top: 650px;
+  }
+
+  .about-me ul .lan,
+  .about-me ul .fra,
+  .about-me ul .ski {
+    position: absolute;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .about-me ul .lang1 {
+    margin-top: 710px;
+    margin-left: 160px;
+  }
+
+  .about-me ul .lang2 {
+    margin-top: 760px;
+    margin-left: 160px;
+  }
+  
+  .about-me ul .lang3 {
+    margin-top: 810px;
+    margin-left: 160px;
+  }
+
+  .about-me ul .lang4 {
+    margin-top: 860px;
+    margin-left: 160px;
+  }
+
+  .about-me ul .frames1 {
+    margin-top: 710px;
+    margin-left: 575px;
+  }
+
+  .about-me ul .frames2 {
+    margin-top: 760px;
+    margin-left: 575px;
+  }
+
+  .about-me ul .frames3 {
+    margin-top: 810px;
+    margin-left: 575px;
+  }
+
+  .about-me ul .frames4 {
+    margin-top: 860px;
+    margin-left: 575px;
+  }
+
+  .about-me ul .frames5 {
+    margin-top: 910px;
+    margin-left: 575px;
+  }
+
+  .about-me ul .skills1 {
+    margin-top: 710px;
+    margin-left: 1030px;
+  }
+
+  .about-me ul .skills2 {
+    margin-top: 760px;
+    margin-left: 1030px;
+  }
+
+  .about-me ul .skills3 {
+    margin-top: 810px;
+    margin-left: 1030px;
+  }
+
+  .about-me ul .skills4 {
+    margin-top: 860px;
+    margin-left: 1030px;
+  }
+
+  .about-me ul .skills5 {
+    margin-top: 910px;
+    margin-left: 1030px;
+  }
+
+  .form h4 {
+    position: absolute;
+    width: 455px;
+    height: 256px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 1350px;
+  }
+
+  .form form {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 1325px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .form form .email {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 5px;
+  }
+
+  .form ul .first-name {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+  .form ul .last-name {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 0px;
+  }
+
+  .form ul .message {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 130px;
+  }
+
+  .form ul .button {
+    position: absolute;
+    margin-left: -87px;
+    margin-top: 300px;
+  }
+
+  .form ul textarea {
+    width: 684px;
+    height: 114px;
+
+  }
+
+  .form ul label {
+    padding-top: 8px;
+  }
+
+  .form ul .email input {
+    width: 684px;
+  }
+
+  .form ul .first-name input {
+    width: 330px;
+  }
+
+  .form ul .last-name input {
+    width: 330px;
+  }
+
+  .form .bottomline-2 {
+    position: absolute;
+    margin-top: 1870px;
+  }
+
+  .form .langicon2 {
+    position: absolute;
+    margin-top: 1890px;
+    margin-left: 650px;
+  }
+
+  .form {
+    height: 1000px;
+  }
+
+
+
+
+
+
+
+
 }
