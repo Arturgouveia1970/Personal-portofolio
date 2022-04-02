@@ -1006,7 +1006,7 @@ span {
   }
 
   .button-wiggle {
-    animation: wiggle 2s linear infinite;
+    animation: wiggle 3s linear infinite;
   }
 
   @keyframes wiggle {
