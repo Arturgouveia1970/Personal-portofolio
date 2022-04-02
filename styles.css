@@ -1247,7 +1247,6 @@ span {
     height: 1000px;
   }
   
-  /* making elements fade */
   .fade {
     opacity: 0.5;
   }
@@ -1260,6 +1259,6 @@ span {
   .grow:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
-     transform: scale(1.3);
+       transform: scale(1.3);
   }
 }
