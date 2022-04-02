@@ -1013,23 +1013,29 @@ span {
     0%, 7% {
       transform: rotate(0);
     }
+
     15% {
       transform: rotate(-15deg);
     }
+
     20% {
-      tranform: rotate(10deg);
+      transform: rotate(10deg);
     }
+
     25% {
-      transfor: rotate(-10deg);
+      transform: rotate(-10deg);
     }
+
     30% {
       transform: rotate(6deg);
     }
+
     35% {
-      tranform: rotate(-4deg);
+      transform: rotate(-4deg);
     }
+
     40%, 100% {
-      transfor: rotate(0deg);
+      transform: rotate(0deg);
     }
   }
 
