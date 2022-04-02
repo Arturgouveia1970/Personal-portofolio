@@ -709,7 +709,6 @@ span {
       margin-left: 0%;
       width: 100%;
     }
-    
   }
 
   .headline .text h4 {
@@ -1026,8 +1025,8 @@ span {
   }
 
   .about-me .Med-btn {
-    margin-left: 150px;
     margin: none;
+    margin-left: 150px;
   }
 
   .about-me .Med-btn:hover {
@@ -1248,20 +1247,19 @@ span {
     height: 1000px;
   }
   
-   /* making elements fade*/
+  /* making elements fade */
   .fade {
-      opacity: 0.5;
+    opacity: 0.5;
   }
   
   .fade:hover {
-      opacity: 1;
-      font-size: 140%;
+    opacity: 1;
+    font-size: 140%;
   }
 
   .grow:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
      transform: scale(1.3);
-  } 
-
+  }
 }
