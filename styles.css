@@ -1250,4 +1250,12 @@ span {
   .form {
     height: 1000px;
   }
+
+  .grow1:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border: none;
+  }
+
 }
