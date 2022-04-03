@@ -1283,28 +1283,11 @@ span {
   .form {
     height: 1000px;
   }
-<<<<<<< HEAD
-  
-  .fade {
-    opacity: 0.5;
-  }
-  
-  .fade:hover {
-    opacity: 1;
-    font-size: 140%;
-  }
-
-  .grow:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-      transform: scale(1.3);
-=======
 
   .grow1:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     border: none;
->>>>>>> cb94fd5516a07a3039b749f3e40b9fafba0a926b
   }
 }
