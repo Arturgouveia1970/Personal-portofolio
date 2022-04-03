@@ -889,10 +889,6 @@ span {
     margin-left: 730px;
   }
 
-  .recent-works-2 .btn:hover {
-    border: 2px solid blue;
-  }
-
   .projects-2 {
     display: grid;
     grid-template-columns: auto auto auto;
