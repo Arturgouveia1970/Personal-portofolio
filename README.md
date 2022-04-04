@@ -19,7 +19,7 @@ Fell free to check my site:  https://arturgouveia1970.github.io/Personal-portofo
 
 - GitHub:GitHub: [@Arturgouveia1970](https://github.com/Arturgouveia1970)
 - Artur Gouveia @ArturGouveia10
-- www.linkdin.com/in/artur-gouveia-323868197
+- www.linkedin.com/in/artur-gouveia-323868197
 
 Give a ⭐️ if you like this project!
 
