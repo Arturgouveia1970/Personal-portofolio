@@ -139,7 +139,7 @@ header {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 54px 24px 24px 24px;
+  margin: -50px 24px 24px 24px;
   color: #fff;
 }
 
@@ -324,6 +324,11 @@ form li + li {
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
+}
+
+.about-me .text p {
+  margin-top: 24px;
+
 }
 
 .text .Med-btn {
