@@ -714,6 +714,33 @@ span {
     }
   }
 
+  .recent-works-2 h2 {
+    width: 321px;
+    height: 52px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .about-me h2 {
+    width: 566px;
+    height: 78px;
+    margin-left: 150px;
+    top: 150px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #f55800;
+  }
+
   .headline .text h2 {
     width: 566px;
     height: 24px;
@@ -826,19 +853,6 @@ span {
   .recent-works-2 {
     display: grid;
     margin-left: 150px;
-  }
-
-  .recent-works-2 h2 {
-    width: 321px;
-    height: 52px;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    margin-top: 50px;
   }
 
   .recent-works-2 img {
@@ -1008,20 +1022,6 @@ span {
     background-image: url("./images/Group-1.png");
     background-repeat: no-repeat;
     background-position: right 11%;
-  }
-
-  .about-me h2 {
-    width: 566px;
-    height: 78px;
-    margin-left: 150px;
-    top: 150px;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 82px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #f55800;
   }
 
   .button-wiggle {
