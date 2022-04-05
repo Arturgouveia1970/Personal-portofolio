@@ -106,7 +106,7 @@ header {
   margin-left: 24px;
 }
 
-.headline .text h4 {
+.headline .text h2 {
   font-family: Roboto, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -118,6 +118,7 @@ header {
   margin-left: 24px;
   width: 327px;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .text1 p {
@@ -138,7 +139,8 @@ header {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin: 0 24px 24px 24px;
+  margin: -50px 24px 24px 24px;
+  color: #fff;
 }
 
 .recent-works p {
@@ -212,7 +214,7 @@ form ul {
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -297,6 +299,7 @@ form li + li {
   padding-right: 12px;
   padding-top: 12px;
   padding-bottom: 22px;
+  font-weight: 700;
 }
 
 .projects .btn {
@@ -381,7 +384,7 @@ form li + li {
   font-family: Inter, sans-serif;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 43px;
 }
 
@@ -711,7 +714,34 @@ span {
     }
   }
 
-  .headline .text h4 {
+  .recent-works-2 h2 {
+    width: 321px;
+    height: 52px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .about-me h2 {
+    width: 566px;
+    height: 78px;
+    margin-left: 150px;
+    top: 150px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #f55800;
+  }
+
+  .headline .text h2 {
     width: 566px;
     height: 24px;
     top: 376px;
@@ -751,6 +781,7 @@ span {
     letter-spacing: 0;
     text-align: left;
     margin-left: 150px;
+    margin-top: 60px;
   }
 
   .headline .text p {
@@ -822,19 +853,6 @@ span {
   .recent-works-2 {
     display: grid;
     margin-left: 150px;
-  }
-
-  .recent-works-2 h2 {
-    width: 321px;
-    height: 52px;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    margin-top: 50px;
   }
 
   .recent-works-2 img {
@@ -1004,20 +1022,6 @@ span {
     background-image: url("./images/Group-1.png");
     background-repeat: no-repeat;
     background-position: right 11%;
-  }
-
-  .about-me h2 {
-    width: 566px;
-    height: 78px;
-    margin-left: 150px;
-    top: 150px;
-    font-family: 'Crete Round', sans-serif;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 82px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #f55800;
   }
 
   .button-wiggle {
