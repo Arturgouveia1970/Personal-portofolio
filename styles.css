@@ -118,7 +118,7 @@ header {
   margin-left: 24px;
   width: 327px;
   margin-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .text1 p {
@@ -771,7 +771,7 @@ span {
     margin-left: 150px;
   }
 
-  .headline .text img {
+  .text img {
     display: none;
   }
 
@@ -1014,7 +1014,6 @@ span {
     width: 566px;
     height: 78px;
     margin-left: 150px;
-    
     top: 150px;
     font-family: 'Crete Round', sans-serif;
     font-size: 72px;
