@@ -5,64 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artur Gouveia full-stack web Developer</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <script src="bootstrap.js"></script>
 </head>
 
 <body>
   <div class="wrapper">
-    <header class="header">
-      <div class="logo"><a href="#logo">Artur Gouveia</a></div>
-      <nav class="menu">
-        <ul>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">contact</a></li>
-        </ul>
-        <img class="burger" src="images/Icons/Icon-Menu.png" alt="hamburguer">
-        <img class="rec" src="images/Icons/Union.png" alt="rec image">
-      </nav>
+    <header class="navbar navbar-expand-sm bg-secondary navbar-dark">
+      <div class="container"><a href="#logo" class="nav-link text-white ms-5">Artur Gouveia</a></div>
+        <div class="collapse navbar-collapse">
+          <nav class="">
+            <ul class="navbar-nav">
+              <li class=""><a href="#Portfolio" class="nav-link text-white">Portfolio</a></li>
+              <li><a href="#About" class="nav-link text-white">About</a></li>
+              <li><a href="#Contact" class="nav-link text-white">contact</a></li>
+              <li><img class="rec nav-link me-5" src="images/Icons/Union.png" alt="rec image"></li>
+            </ul>
+            
+          </nav>
+        </div>
     </header>
 
-    <section class="headline">
-      <ul class="button-wiggle">
+    <section class="container-fluid bg-dark row">
+      <ul class="button-wiggle col">
         <li><img src="images/Icons/github.png" alt="github icon"></li>
         <li><img src="images/Icons/Linkedin-icon.png" alt="linkedin icon"></li>
         <li><img src="images/Icons/angel-list.png" alt="medium icon"></li>
         <li><img src="images/Icons/twitter.png" alt="twitter icon"></li>
         <li><img src="images/Icons/medium.png" alt="medium icon"></li>
       </ul>
-      <div class="text fade">
-        <h1>Hey there.<br>I am Artur</h1>
+      <div class="text text-white col">
+        <h1 class="h1">Hey there.<br>I am Artur</h1>
         <h2>I am a software Developer</h2>
-        <p>I can help you build a product , feature or website Look
+        <p class="pr">I can help you build a product , feature or website Look
          through some of my work and experience! If you like what
          you see and have a project you need coded, 
          don’t hestiate to contact me.
-        </p>
-        <img src="images/Social-Media.png" alt="social media icons">
+         </p>
       </div>
     </section>
 
     <div class="all-projects">
-      <section class="recent-works">
-        <h2>My Recent Works</h2>
-        <hr class="solid">
-        <div class="img-placeholder">
-          <img src="images/Card-Works.png" alt="card works">
-        </div>
-        <h3>Multi-Post Stories</h3>
-        <p>A daily selection of privately personalized reads; no accounts
-          or sign-ups required. Has been the industry's standard dummy
-          text ever since the 1500s, when an unknown printer took a standard
-          dummy text.
-        </p>
-        <ul class="icons">
-          <li><img class="css" src="images/css-logo.png" alt="css logo"></li>
-          <li><img class="html" src="images/html.png" alt="html logo"></li>
-          <li><img class="bootstrap" src="images/bootstrap.png" alt="bootstrap logo"></li>
-          <li><img class="ruby" src="images/ruby.png" alt="ruby logo"></li>
-        </ul>
-        <button type="button" class="btn">See Project</button>
-      </section>
 
       <section class="recent-works-2">
         <h2>My Recent Works</h2>
@@ -84,87 +68,8 @@
         </ul>
         <button type="button" class="btn grow1">See Project</button>
       </section>
-
-      <section class="projects">
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button> 
         
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button> 
         
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button>
-
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button>
-        
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button>
-
-        <div class="text1">
-          <h3 class="title-post">Professional Art Printing Data</h3>
-          <p>A daily selection of privately personalized reads; no accounts or
-          sign-ups required.has been the industry's standard
-          </p>
-          <ul class="icons">
-            <li><img class="langicon" src="images/html2.png" alt="html logo"></li>
-            <li><img class="langicon" src="images/bootstrap2.png" alt="bootstrap logo"></li>
-            <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
-          </ul>
-        </div>
-        <button type="button" class="btn">See Project</button>
-      </section>
-
       <section class="projects-2">
         <div class="proj-1 grow1">
           <div class="image3">
@@ -303,6 +208,7 @@
       <img class="bottom-line" src="images/Shape.png" alt="black line">
     </section>
   </div> 
+  <script src="bootstrap.js"></script>
 
 </body> 
 </html>
