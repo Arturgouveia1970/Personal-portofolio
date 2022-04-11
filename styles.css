@@ -1052,15 +1052,15 @@ span {
   }
 
   .about-me .Med-btn {
-    margin-top: none;
-    margin-right: none;
-    margin-bottom: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     margin-left: 150px;
     border: none;
   }
 
   .about-me .Med-btn:hover {
-    margin: 2px solid blue;
+    margin: 1px solid blue;
     color: blue;
   }
 
@@ -1286,11 +1286,11 @@ span {
   }
 
   .recent-works-2 .btn:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    border: none;
-   }
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+      border: none;
+  }
 
   .grow1:hover h3 {
     display: none;
