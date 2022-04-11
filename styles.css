@@ -1060,7 +1060,7 @@ span {
   }
 
   .about-me .Med-btn:hover {
-    margin: 2px solid blue;
+    border: 2px solid blue;
     color: blue;
   }
 
@@ -1278,18 +1278,18 @@ span {
   }
 
   .grow1:hover {
-      -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-       transform: scale(1.3);
-       border: none;
-       background: url("./images/Img-Placeholder-3.png");
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border: none;
+    background: url("./images/Img-Placeholder-3.png");
   }
 
   .recent-works-2 .btn:hover {
-      -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-      transform: scale(1.3);
-      border: none;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border: none;
   }
 
   .grow1:hover h3 {
