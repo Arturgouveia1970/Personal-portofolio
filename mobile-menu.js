@@ -9,7 +9,7 @@ mobileBtn.addEventListener('click', () => {
 
 mobileBtnExit.addEventListener('click', () => {
   nav.style.display = 'none';
-})
+});
 
 nav.addEventListener('click', () => {
   nav.style.display = 'none';
