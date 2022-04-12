@@ -16,19 +16,19 @@
   }
 
 .mobile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    width: 343px;
-    height: 798px;
-    top: 60px;
-    left: 16px;
-    padding: 16px;
-    gap: 24px;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 343px;
+  height: 798px;
+  top: 60px;
+  left: 16px;
+  padding: 16px;
+  gap: 24px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
 }
 
 .mobile-container h1 {
@@ -90,17 +90,17 @@
 }
 
 .mobile-container .see-live-btn {
-    width: 134px;
-    height: 48px;
-    background-image: url(./images/Icons/seelive-btn.png); 
-    margin-top: 70px; 
-    margin-right: 10px;  
+  width: 134px;
+  height: 48px;
+  background-image: url(./images/Icons/seelive-btn.png); 
+  margin-top: 70px; 
+  margin-right: 10px;  
 }
 
 .mobile-container .see-source-btn {
-    width: 159px;
-    height: 48px;
-    background-image: url(./images/Icons/seeSource-btn.png);
+  width: 159px;
+  height: 48px;
+  background-image: url(./images/Icons/seeSource-btn.png);
 }
 
 /* *********************************************
@@ -117,16 +117,16 @@
     }
 
     .mobile-container {
-        display: none;
+      display: none;
     }
 
     .container {
-        width: 1156px;
-        height: 631px;
-        position: absolute;
-        background: #fff;
-        border: 1px solid #ebecf0;
-        box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+      width: 1156px;
+      height: 631px;
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ebecf0;
+      box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     }
 
     .container h1 {
@@ -183,25 +183,21 @@
       text-align: left;
       margin-top: 45px;
       margin-left: 25px;
-  
     }
 
     .container .see-live-btn {
-        width: 134px;
-        height: 48px;
-        background-image: url(./images/Icons/seelive-btn.png); 
-        margin-top: 70px; 
-        margin-right: 10px; 
-        margin-left: 25px;
-        margin-bottom: 27px; 
+      width: 134px;
+      height: 48px;
+      background-image: url(./images/Icons/seelive-btn.png); 
+      margin-top: 70px; 
+      margin-right: 10px; 
+      margin-left: 25px;
+      margin-bottom: 27px; 
     }
-    
+
     .container .see-source-btn {
-        width: 159px;
-        height: 48px;
-        background-image: url(./images/Icons/seeSource-btn.png);
+      width: 159px;
+      height: 48px;
+      background-image: url(./images/Icons/seeSource-btn.png);
     }
 }
-
-
-
