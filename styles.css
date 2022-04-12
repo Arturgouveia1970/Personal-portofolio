@@ -31,27 +31,29 @@ header {
 
 .nav-list {
   display: none;
-}
-
-/*.mobile-menu {
   width: 375px;
-  height: 755px;
+  height: 100vh;
   background-color: #3c3a39;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
   bottom: 57px;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   color: #fff5e1;
+  z-index: 999;
+  padding-top: 100px;
 }
 
-.mobile-menu ul {
-  list-style: none;
-  margin-top: 58px;
+.nav-list ul .cont {
+  font-family: Roboto, sans-serif;
 }
 
-.mobile-menu ul li {
+.nav-list a {
+  text-decoration: none;
+  color: #fff5e1;
+  margin-top: 60px;
+
   width: 227px;
   height: 24px;
   top: 8px;
@@ -65,48 +67,39 @@ header {
   margin-bottom: 80px;
 }
 
-.mobile-menu ul .cont {
-  font-family: Roboto, sans-serif;
+.nav-list .separator {
+  position: relative;
+  width: 327px;
+  margin-left: 24px; 
+  margin-top: 8px; 
 }
 
-.mobile-menu a {
-  text-decoration: none;
-  color: #fff5e1;
-  margin-top: -60px;
-}
-
-mobile-menu ul li img {
-  width: 327px;  
-  margin-bottom: -50px;
-  margin-left: -58px;
-  color: #6f6c6b;
-}
-
-.mobile-menu .ex-sign {
-  position: absolute;  
+.nav-list .mobile-menu-x { 
+  position: absolute; 
   width: 12px;
   height: 12px;
-  margin-top: 25px;
-  margin-left: 290px;
-  margin-bottom: 5px;
+  margin-top: -50px;
+  margin-left: 330px;
 }
 
-.mobile-menu .white-space {
+.nav-list .white-space {
+  position: absolute;
+  bottom: 0;
   height: 57px;
   width: 375px;
   background-color: #e5e5e5;
-  margin-top: 320px;
-  padding-top: 0px;
+  margin-top: 210px;
+  padding-top: 0;
 }
 
-.mobile-menu .white-space .solid {
+.nav-list .white-space .solid {
   position: absolute;
   width: 120px;
   margin-top: 45px;
-  margin-left: 145px;
+  margin-left: 130px;
   color: black;
   border: 2px solid black;
-} */
+} 
 
 .logo a {
   text-decoration: none;
@@ -658,6 +651,7 @@ span {
     overflow-x: hidden;
   }
 
+  .menu .burger,
   .mobile-menu,
   .menu ul,
   .headline ul,
