@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="mobile-menu.css">-->
     <title>Artur Gouveia full-stack web Developer</title>
 </head>
 
@@ -14,13 +15,32 @@
       <div class="logo"><a href="#logo">Artur Gouveia</a></div>
       <nav class="menu">
         <ul>
-          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Port">Portfolio</a></li>
           <li><a href="#About">About</a></li>
-          <li><a href="#Contact">contact</a></li>
+          <li><a href="#Cont">contact</a></li>
         </ul>
-        <img class="burger" src="images/Icons/Icon-Menu.png" alt="hamburguer">
+        <img class="burger" src="images/Icons/Icon-Menu.png" alt="hamburguer" id="burger">
         <img class="rec" src="images/Icons/Union.png" alt="rec image">
       </nav>
+      <!-- mobile menu page-->
+      <nav id="navPage" class="navPage">
+        <img class="mobile-Menu" id="mobileMenu" src="images/Icons/Icon-Menu.png" alt="open navigation">
+        <div class="nav-list">
+          <img class="mobile-menu-x" id="mobile-exit" src="images/Icons/ex.png" alt="exit-sign">
+          <div class="m-list">
+            <a class="menu-list" href="#port">Portfolio</a>
+            <img class="separator" src="images/Icons/Separtor-Full-Width-Bottom.png" alt="separator">
+            <a class="menu-list" href="#about">About</a>
+            <img class="separator" src="images/Icons/Separtor-Full-Width-Bottom.png" alt="separator">
+            <a class="menu-list" href="#cont">Contacts</a>
+            <img class="separator" src="images/Icons/Separtor-Full-Width-Bottom.png" alt="separator">
+          </div>
+          <div class="white-space">
+            <hr class="solid">
+          </div>
+        </div>
+        
+      </nav> 
     </header>
 
     <section class="headline">
@@ -43,7 +63,7 @@
       </div>
     </section>
 
-    <div class="all-projects">
+    <div class="all-projects" id="port">
       <!-- Mobile version -->
       <section class="recent-works">
         <h2>My Recent Works</h2>
@@ -250,7 +270,7 @@
       </section>  
     </div>
     <!-- both versions-->
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="text">
         <h2>About me</h2>
         <p>Hello I'm a software developer! I can help you build a product, feature or website Look
@@ -282,7 +302,7 @@
       </ul>
           
     </section> 
-    <section class="form">  
+    <section id="cont" class="form">  
       <h4>I'm always interested in hearing about new projects,
          so if you'd like to chat please get in touch.</h4>
 
@@ -318,6 +338,8 @@
       <img class="bottom-line" src="images/Shape.png" alt="black line">
     </section>
   </div> 
+
+  <script src="mobile-menu.js"></script>
 
 </body> 
 </html>
