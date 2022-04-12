@@ -29,6 +29,85 @@ header {
   color: white;
 }
 
+.nav-list {
+  display: none;
+}
+
+/*.mobile-menu {
+  width: 375px;
+  height: 755px;
+  background-color: #3c3a39;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 57px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  color: #fff5e1;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 58px;
+}
+
+.mobile-menu ul li {
+  width: 227px;
+  height: 24px;
+  top: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 80px;
+}
+
+.mobile-menu ul .cont {
+  font-family: Roboto, sans-serif;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff5e1;
+  margin-top: -60px;
+}
+
+mobile-menu ul li img {
+  width: 327px;  
+  margin-bottom: -50px;
+  margin-left: -58px;
+  color: #6f6c6b;
+}
+
+.mobile-menu .ex-sign {
+  position: absolute;  
+  width: 12px;
+  height: 12px;
+  margin-top: 25px;
+  margin-left: 290px;
+  margin-bottom: 5px;
+}
+
+.mobile-menu .white-space {
+  height: 57px;
+  width: 375px;
+  background-color: #e5e5e5;
+  margin-top: 320px;
+  padding-top: 0px;
+}
+
+.mobile-menu .white-space .solid {
+  position: absolute;
+  width: 120px;
+  margin-top: 45px;
+  margin-left: 145px;
+  color: black;
+  border: 2px solid black;
+} */
+
 .logo a {
   text-decoration: none;
   color: white;
@@ -579,6 +658,7 @@ span {
     overflow-x: hidden;
   }
 
+  .mobile-menu,
   .menu ul,
   .headline ul,
   .menu .rec,
@@ -591,9 +671,9 @@ span {
   }
 }
 
-/* *******************************************************
-/* desktop version
-********************************************************+ */
+/* ******************************************************
+              desktop version
+******************************************************** */
 
 @media only screen and (min-width: 768px) {
   html,
@@ -800,10 +880,6 @@ span {
     text-align: left;
     margin-top: 48px;
     margin-left: 150px;
-  }
-
-  .text img {
-    display: none;
   }
 
   .logo {
