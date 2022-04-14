@@ -21,7 +21,7 @@ const projectObj = [
     name: 'Profesional Art Printing Data More',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder-4.png",  
+    featured_image: './images/Img-Placeholder-4.png',
   },
 
   {
@@ -29,7 +29,7 @@ const projectObj = [
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder25.png", 
+    featured_image: './images/Img-Placeholder25.png',
   },
 
   {
@@ -37,7 +37,7 @@ const projectObj = [
     name: 'Website Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder-36.png", 
+    featured_image: './images/Img-Placeholder-36.png',
   },
 
   {
@@ -45,7 +45,7 @@ const projectObj = [
     name: 'Profesional Art Ptinting Data More',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder-4.png",  
+    featured_image: './images/Img-Placeholder-4.png',
   },
 
   {
@@ -53,7 +53,7 @@ const projectObj = [
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder25.png", 
+    featured_image: './images/Img-Placeholder25.png',
   },
 
   {
@@ -61,7 +61,7 @@ const projectObj = [
     name: 'Website Protfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry's standard ",
     technologies: ['html', 'bootstrap', 'ruby'],
-    featured_image: "./images/Img-Placeholder-36.png", 
+    featured_image: './images/Img-Placeholder-36.png',
   },
 ];
 
@@ -78,24 +78,23 @@ mobileSection.innerHTML = projectObj.map((proj) => `
           </ul>
         </div>
         <button type="button" class="btn">See Project</button>
-`).join('')
+`).join('');
 
 const openMobileButtons = document.querySelectorAll('.btn');
-const exitMobileButtons =document.getElementById('exit-sign-m');
+const exitMobileButtons = document.getElementById('exit-sign-m');
 const mobilePopUP = document.querySelector('.mobile-container');
 
 openMobileButtons.forEach((b) => {
   b.addEventListener('click', () => {
     mobilePopUP.style.display = 'flex';
-  })
-}); 
-
+  });
+});
 
 exitMobileButtons.addEventListener('click', () => {
   mobilePopUP.style.display = 'none';
 });
 
-//desktop version popup
+// desktop version popup
 const openDestopButtons = document.querySelectorAll('.btn-2');
 const exitDesktopButtons = document.getElementById('exit-sign-d');
 const desktopPopUp = document.querySelector('.container');
@@ -103,14 +102,14 @@ const desktopPopUp = document.querySelector('.container');
 openDestopButtons.forEach((d) => {
   d.addEventListener('click', () => {
     desktopPopUp.style.display = 'flex';
-  })
+  });
 });
 
 exitDesktopButtons.addEventListener('click', () => {
   desktopPopUp.style.display = 'none';
 });
 
-const desktopVersion = getElementById('desktop-proj'); 
+const desktopVersion = document.getElementById('desktop-proj');
 
 desktopVersion.innerHTML = projectObj.map((proj) => `
 <div class="proj-14 proj grow1">
@@ -122,16 +121,16 @@ desktopVersion.innerHTML = projectObj.map((proj) => `
             <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
           </ul>
           <button type="button" class="btn-2">See Project</button>
-`).join('')
+`).join('');
 
-window.onclick = function(event) {
-  if (event.target == desktopPopUp) {
-    desktopPopUp.style.display = "none";
+window.onclick = function (event) {
+  if (event.target === desktopPopUp) {
+    desktopPopUp.style.display = 'none';
   }
-}
+};
 
-window.onclick = function(event) {
-  if (event.target == mobilePopUP) {
-    mobilePopUP.style.display = "none";
+window.onclick = function (event) {
+  if (event.target === mobilePopUP) {
+    mobilePopUP.style.display = 'none';
   }
-}
+};
