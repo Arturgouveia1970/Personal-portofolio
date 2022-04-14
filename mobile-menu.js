@@ -15,8 +15,6 @@ nav.addEventListener('click', () => {
   nav.style.display = 'none';
 });
 
-
-
 const projectObj = [
   {
     id: 'p1',
@@ -67,8 +65,6 @@ const projectObj = [
   },
 ];
 
-
-
 const mobileSection = document.getElementById('mobile-proj');
 
 mobileSection.innerHTML = projectObj.map((proj) => `
@@ -112,9 +108,7 @@ openDestopButtons.forEach((d) => {
 
 exitDesktopButtons.addEventListener('click', () => {
   desktopPopUp.style.display = 'none';
-
 });
-
 
 const desktopVersion = getElementById('desktop-proj'); 
 
@@ -130,3 +124,14 @@ desktopVersion.innerHTML = projectObj.map((proj) => `
           <button type="button" class="btn-2">See Project</button>
 `).join('')
 
+window.onclick = function(event) {
+  if (event.target == desktopPopUp) {
+    desktopPopUp.style.display = "none";
+  }
+}
+
+window.onclick = function(event) {
+  if (event.target == mobilePopUP) {
+    mobilePopUP.style.display = "none";
+  }
+}

@@ -141,6 +141,11 @@ header {
   margin: 120px 24px 24px 24px;
 }
 
+.rec {
+  height: fit-content;
+  align-self: center;
+}
+
 .text h2 {
   height: 79px;
   width: 327px;
