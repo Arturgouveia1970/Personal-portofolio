@@ -36,6 +36,7 @@
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   z-index: 2;
+  transition: 0.03s;
 }
 
 .mobile-container h1 {
@@ -110,7 +111,7 @@
 }
 
 /* *********************************************
-                desktop version 
+desktop version 
 ***********************************************/
 
 @media only screen and (min-width: 768px) {
@@ -140,6 +141,7 @@
     left: 50%;
     background-color: white;
     padding: 16px;
+    transition: 0.03s;
   }
 
   .container h1 {
@@ -171,7 +173,7 @@
     height: 40px;
     margin-top: 65px;
     margin-left: 24px;
-    }
+  }
 
     .middle aside {
       position: absolute;
@@ -181,7 +183,6 @@
 
   .container .snapshot {
     margin-left: 24px;
-    /* margin-bottom: 27px; */
     margin-top: 110px;
   }
 
