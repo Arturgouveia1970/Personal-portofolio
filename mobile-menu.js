@@ -109,7 +109,7 @@ exitDesktopButtons.addEventListener('click', () => {
   desktopPopUp.style.display = 'none';
 });
 
-const desktopVersion = document.getElementById('desktop-proj');
+/* const desktopVersion = document.getElementById('desktop-proj');
 
 desktopVersion.innerHTML = projectObj.map((proj) => `
 <div class="proj-14 proj grow1">
@@ -121,7 +121,7 @@ desktopVersion.innerHTML = projectObj.map((proj) => `
             <li><img class="langicon" src="images/ruby2.png" alt="ruby logo"></li>
           </ul>
           <button type="button" class="btn-2">See Project</button>
-`).join('');
+`).join(''); */
 
 window.onclick = function (event) {
   if (event.target === desktopPopUp) {
