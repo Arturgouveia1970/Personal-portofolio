@@ -321,6 +321,18 @@ form li + li {
   margin-top: -50px;
 }
 
+.projects .btn {
+  z-index: 2;
+  width: 327px;
+  height: 48px;
+  background-color: #ff6b00;
+  color: white;
+  font-family: inter, sans-serif;
+  font-size: 17px;
+  margin-top: 180px;
+  margin-bottom: -140px;
+}
+
 .recent-works .btn:hover {
   column-rule: black;
   border: 1px solid black;
@@ -385,18 +397,6 @@ form li + li {
   padding-top: 12px;
   padding-bottom: 22px;
   font-weight: 700;
-}
-
-.projects .btn {
-  z-index: 2;
-  width: 327px;
-  height: 48px;
-  background-color: #ff6b00;
-  color: white;
-  font-family: inter, sans-serif;
-  font-size: 17px;
-  margin-top: 180px;
-  margin-bottom: -140px;
 }
 
 .projects .btn:hover {

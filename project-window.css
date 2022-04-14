@@ -52,7 +52,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 12px;
+  margin: 0 12px;
   margin-left: -38px;
 }
 
@@ -73,15 +73,12 @@
   top: 94px;
   gap: 8px;
   margin-left: -38px;
- 
 }
 
 .mobile-container .snapshot {
   width: 311px;
   height: 220px;
   position: static;
-  width: 311px;
-  height: 220px;
   left: 16px;
   top: 170px;
 }
@@ -102,8 +99,8 @@
   width: 134px;
   height: 48px;
   background-image: url(./images/Icons/seelive-btn.png); 
-  margin-top: 70px; 
-  margin-right: 10px;  
+  margin-top: 70px;
+  margin-right: 10px;
 }
 
 .mobile-container .see-source-btn {
@@ -171,7 +168,7 @@
   .container .tags {
     position: absolute;
     width: 294px;
-    height: 40px; 
+    height: 40px;
     margin-top: 65px;
     margin-left: 24px;
     }
@@ -183,9 +180,8 @@
     }
 
   .container .snapshot {
-    
     margin-left: 24px;
-    /*margin-bottom: 27px;*/
+    /* margin-bottom: 27px; */
     margin-top: 110px;
   }
 
@@ -207,11 +203,11 @@
   .container .see-live-btn {
     width: 134px;
     height: 48px;
-    background-image: url(./images/Icons/seelive-btn.png); 
-    margin-top: 70px; 
-    margin-right: 10px; 
+    background-image: url(./images/Icons/seelive-btn.png);
+    margin-top: 70px;
+    margin-right: 10px;
     margin-left: 25px;
-    margin-bottom: 27px; 
+    margin-bottom: 27px;
   }
 
   .container .see-source-btn {
