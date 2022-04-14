@@ -99,7 +99,7 @@
 .mobile-container .see-live-btn {
   width: 134px;
   height: 48px;
-  background-image: url(./images/Icons/seelive-btn.png); 
+  background-image: url(./images/Icons/seelive-btn.png);
   margin-top: 70px;
   margin-right: 10px;
 }
@@ -175,11 +175,11 @@ desktop version
     margin-left: 24px;
   }
 
-    .middle aside {
-      position: absolute;
-      margin-top: -505px;
-      margin-left: 675px;
-    }
+  .middle aside {
+    position: absolute;
+    margin-top: -505px;
+    margin-left: 675px;
+  }
 
   .container .snapshot {
     margin-left: 24px;
