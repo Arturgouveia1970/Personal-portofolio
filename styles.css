@@ -16,6 +16,8 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto; /* 5000px */
 }
@@ -170,9 +172,10 @@ header {
 }
 
 .form h4 {
-  margin-top: 2530px;
+  margin-top: 520px;
+  margin-bottom: 30px;
   font-family: Inter, sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
@@ -180,7 +183,7 @@ header {
   width: 327px;
   height: 216px;
   color: #172b4d;
-  margin-left: 24px;
+  margin-left: -10px;
 }
 
 .headline .text h2 {
@@ -300,6 +303,7 @@ form li + li {
 }
 
 .recent-works .btn {
+  z-index: 2;
   width: 124px;
   height: 48px;
   padding: 12px;
@@ -310,6 +314,11 @@ form li + li {
   font-size: 17px;
   margin-left: 24px;
   margin-top: -50px;
+}
+
+.recent-works .btn:hover {
+  column-rule: black;
+  border: 1px solid black;
 }
 
 .projects {
@@ -374,6 +383,7 @@ form li + li {
 }
 
 .projects .btn {
+  z-index: 2;
   width: 327px;
   height: 48px;
   background-color: #ff6b00;
@@ -384,14 +394,19 @@ form li + li {
   margin-bottom: -140px;
 }
 
+.projects .btn:hover {
+  color: black;
+  border: 1px solid black;
+}
+
 .about-me {
   flex-direction: row;
   color: #fff;
   height: 2200px;
   width: 375px;
   background-color: #1c1a19;
-  position: absolute;
-  top: 4380px;
+  position: relative;
+  margin-top: 280px;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-position: 100% 23%;
   background-repeat: no-repeat;
@@ -553,10 +568,11 @@ form li + li {
   margin-left: 125px;
 }
 
-form {
-  margin-top: 43px;
+.form {
+  position: relative;
+  margin-top: -390px;
   width: 375px;
-  padding: 1em;
+  padding: 1px;
   margin-left: 24px;
 }
 
@@ -568,7 +584,7 @@ textarea {
   border: 1px solid #999;
 }
 
-form input {
+.form input {
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -596,7 +612,7 @@ textarea {
   padding-inline: 12px;
 }
 
-form button {
+.form button {
   width: 131px;
   height: 48px;
   background: #ff6b00;
@@ -613,24 +629,29 @@ form button {
   padding: 12px;
 }
 
-form button:hover {
+.form button:hover {
   border: 1px solid black;
   color: black;
 }
 
-form button:active {
+.form button:active {
   background: #fff;
   color: #ff6b00;
 }
 
 .form .langicon2 {
   position: relative;
-  margin-left: 84px;
+  margin-left: 54px;
   margin-top: 97px;
 }
 
 .form .bottom-line {
-  margin-left: 115px;
+  margin-left: 90px;
+}
+
+.form .bottomline-2 {
+  position: absolute;
+  margin-top: 90px;
 }
 
 span {
@@ -675,6 +696,7 @@ span {
     height: auto;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
 
   .header {
@@ -953,7 +975,7 @@ span {
     margin-top: -250px;
   }
 
-  .recent-works-2 .btn {
+  .recent-works-2 .btn-2 {
     width: 124px;
     height: 48px;
     background-color: #f55800;
@@ -1078,7 +1100,7 @@ span {
     height: 1195px;
     background: #262626;
     position: absolute;
-    top: 2480px;
+    top: 2280px;
     background-image: url("./images/Group-1.png");
     background-repeat: no-repeat;
     background-position: right 11%;
@@ -1344,6 +1366,7 @@ span {
 
   .form {
     height: 1000px;
+    margin-top: 80px;
   }
 
   .grow1:hover {
