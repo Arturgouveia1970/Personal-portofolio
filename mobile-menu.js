@@ -208,3 +208,39 @@ desktopButtons.forEach((button) => {
     }
   });
 });
+
+//  mobile validating form
+function validation() {
+  const mForm = document.getElementById('mForm-id');
+  const mName = mForm-id.getElementById('name');
+  const mEmail = mForm-id.getElementById('email');
+  const mMessage = mForm-id.getElementById('massage');
+  const mAlert = document.getElementById('alert');
+  mAlert.innerHTML = '';
+
+  mForm.addEventListener('submit', (e) => {
+    if (mName.length < 1 && mName === undefined && mEmail < 1
+      && mEmail === undefined && mEmail !== mEmail.lowerCase()
+      && mMessage.length < 5 && mMessage === undefined) {
+        e.preventDefault();
+        alert.innerHTML = '* Make sure you fill all input fields correctly. Form not sent.';
+      } else if (mEmail !== mEmail.toLowerCase()) {
+        e.preventDefault();
+        alert.innerHTML = '* Make sure your email is in lowercase. Form not sent.';
+      } else if (mMessage.length < 5 || mMessage === undefined) {
+        e.preventDefault();
+        alert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
+      } else if (mName.length < 1 || mName === undefined) {
+        e.preventDefault();
+        alert.innerHTML = '* please make sure you fill your name correctly. form not sent.';
+      } else if (mMessage.length > 50) {
+        e.preventDefault();
+        alert.innerHTML = '* message too long (max: 50 caracters). form not sent.';
+      } else {
+        mForm.onsubmit();
+      }
+        
+  });
+}
+
+validation();
