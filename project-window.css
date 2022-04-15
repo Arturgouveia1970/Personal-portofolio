@@ -142,6 +142,7 @@ desktop version
     background-color: white;
     padding: 16px;
     transition: 0.03s;
+    z-index: 2;
   }
 
   .container h1 {
@@ -165,6 +166,7 @@ desktop version
     position: absolute;
     left: 95%;
     bottom: 91.3%;
+    z-index: 2;
   }
 
   .container .tags {
