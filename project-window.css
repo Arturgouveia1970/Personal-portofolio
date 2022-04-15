@@ -21,7 +21,7 @@
 }
 
 .mobile-container {
-  display: none;
+  display: flex;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   width: 343px;
-  height: 798px;
+  height: 600px;
   padding: 16px;
   gap: 24px;
   background-color: #fff;
@@ -128,7 +128,7 @@ desktop version
   }
 
   .container {
-    display: none;
+    display: flex;
     width: 1156px;
     height: 631px;
     transform: translate(-50%, -50%);
