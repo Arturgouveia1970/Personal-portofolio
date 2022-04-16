@@ -224,18 +224,18 @@ function validation() {
       && mMessage.length < 5 && mMessage === undefined) {
         e.preventDefault();
         mAlert.innerHTML = '* Make sure you fill all input fields correctly. Form not sent.';
-      } else if (mEmail !== mEmail.toLowerCase() || mEmail === undefined) {
+      } else if (mEmail !== mEmail.toLowerCase() || mEmail === '') {
         e.preventDefault();
         mAlert.innerHTML = '* Make sure your email is in a correct form. Form not sent.';
       } else if (mMessage.length < 5 || mMessage === undefined) {
         e.preventDefault();
-        mAlert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
+        mAlert.innerHTML = '* Text area should have at least 5 characters. Form not sent.';
       } else if (mName.length < 1 || mName === undefined) {
         e.preventDefault();
-        mAlert.innerHTML = '* please make sure you fill your name correctly. form not sent.';
+        mAlert.innerHTML = '* please make sure you fill your name correctly. Form not sent.';
       } else if (mMessage.length > 50) {
         e.preventDefault();
-        mAlert.innerHTML = '* message too long (max: 50 caracters). form not sent.';
+        mAlert.innerHTML = '* message too long (max: 50 caracters). Form not sent.';
       } else {
         mForm.submit();
       }
