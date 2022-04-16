@@ -212,11 +212,11 @@ desktopButtons.forEach((button) => {
 //  mobile validating form
 function validation() {
   const mForm = document.getElementById('mForm-id');
-  const mName = mForm-id.getElementById('name');
-  const mEmail = mForm-id.getElementById('email');
-  const mMessage = mForm-id.getElementById('massage');
+  const mName = document.getElementById('name');
+  const mEmail =document.getElementById('email');
+  const mMessage =document.getElementById('message');
   const mAlert = document.getElementById('alert');
-  mAlert.innerHTML = '';
+  alert.innerHTML = '';
 
   mForm.addEventListener('submit', (e) => {
     if (mName.length < 1 && mName === undefined && mEmail < 1

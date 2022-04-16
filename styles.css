@@ -675,6 +675,22 @@ span {
     overflow-x: hidden;
   }
 
+  .form .mensa {
+    display: flex;
+    background-color: #3c3a39;
+    color: red;
+    width: 250px;
+    height: 50px;
+  }
+
+  .form #alert {
+    display: inline-block;
+    color:#ff6b00;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
   .menu .burger,
   .mobile-menu,
   .menu ul,
@@ -1318,6 +1334,7 @@ span {
   }
 
   .form ul .last-name {
+    display: none;
     position: absolute;
     margin-left: 350px;
     margin-top: 0;
@@ -1371,6 +1388,22 @@ span {
   .form {
     height: 1000px;
     margin-top: 80px;
+  }
+
+  .form .mensa {
+    display: flex;
+    background-color: #3c3a39;
+    color: red;
+    width: 250px;
+    height: 50px;
+  }
+
+  .form #alert {
+    display: inline-block;
+    color:#ff6b00;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
   }
 
   .grow1:hover {
