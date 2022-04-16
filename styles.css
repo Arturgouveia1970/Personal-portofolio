@@ -687,7 +687,7 @@ span {
 
   .form #alert {
     display: inline-block;
-    color:#ff6b00;
+    color: #ff6b00;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-size: 10px;
     font-weight: 700;
@@ -1392,7 +1392,7 @@ span {
   }
 
   .form #alert {
-    color:#ff6b00;
+    color: #ff6b00;
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 700;
