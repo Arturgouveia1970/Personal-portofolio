@@ -30,12 +30,12 @@
   align-items: center;
   width: 343px;
   height: 600px;
-  padding: 16px;
+  padding: 10px;
   gap: 24px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 10;
   transition: 0.03s;
 }
 
@@ -44,7 +44,7 @@
   height: 82px;
   left: 0;
   top: 0;
-  font-family: Roboto, serif;
+  font-family: roboto, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -67,13 +67,14 @@
 }
 
 .mobile-container .tags {
-  position: static;
+  position: absolute;
   width: 270px;
   height: 36px;
   left: 12px;
   top: 94px;
   gap: 8px;
-  margin-left: -38px;
+  margin-left: 3px;
+  margin-top: -20px;
 }
 
 .mobile-container .snapshot {
@@ -81,16 +82,16 @@
   height: 220px;
   position: static;
   left: 16px;
-  top: 170px;
+  top: 200px;
 }
 
 .mobile-container p {
   width: 311px;
   height: 220px;
   font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 18px;
   letter-spacing: 0;
   text-align: left;
   color: #344563;
@@ -100,7 +101,7 @@
   width: 134px;
   height: 48px;
   background-image: url(./images/Icons/seelive-btn.png);
-  margin-top: 70px;
+  margin-top: 35;
   margin-right: 10px;
 }
 
@@ -206,10 +207,9 @@ desktop version
     width: 134px;
     height: 48px;
     background-image: url(./images/Icons/seelive-btn.png);
-    margin-top: 70px;
+    margin-top:0px;
     margin-right: 10px;
     margin-left: 25px;
-    margin-bottom: 27px;
   }
 
   .container .see-source-btn {
