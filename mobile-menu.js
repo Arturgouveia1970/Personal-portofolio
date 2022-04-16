@@ -238,7 +238,7 @@ function validation() {
       mAlert.innerHTML = '* message too long (max: 50 caracters). Form not sent.';
     } else {
       mForm.submit();
-    }      
+    }
   });
 }
 
