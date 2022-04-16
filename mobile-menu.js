@@ -243,3 +243,20 @@ function validation() {
 }
 
 validation();
+
+// local storage
+
+const inputs = document.querySelectorAll("input[type='text'], input[type='email'], textarea");
+
+Array.prototype.forEach.call(inputs, (el) => {
+  const dataName = el.getAttribute('id');
+
+  const dataStored = localStorage.getItem(dataName);
+
+  if (dataStored) el.value = localStorage.getItem(dataName);
+
+  el.addEventListener('blur', (event) => {
+    localStorage.setItem(dataName, event.target.value);
+    // console.log(localStorage.getItem(dataName));
+  });
+});
