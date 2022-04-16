@@ -101,7 +101,6 @@
   width: 134px;
   height: 48px;
   background-image: url(./images/Icons/seelive-btn.png);
-  margin-top: 35;
   margin-right: 10px;
 }
 
@@ -207,7 +206,7 @@ desktop version
     width: 134px;
     height: 48px;
     background-image: url(./images/Icons/seelive-btn.png);
-    margin-top:0px;
+    margin-top:70px;
     margin-right: 10px;
     margin-left: 25px;
   }

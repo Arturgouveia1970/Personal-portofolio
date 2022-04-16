@@ -731,6 +731,10 @@ span {
     color: white;
   }
 
+  .header .navPage {
+    display: none;
+  }
+
   .menu {
     display: flex;
   }
@@ -774,6 +778,10 @@ span {
     background-position: 100% 35%;
     background-repeat: no-repeat;
     padding-top: 80px;
+  }
+
+  .headline .text img {
+    display: none;
   }
 
   .headline ul {
@@ -942,7 +950,7 @@ span {
     height: auto;
   }
 
-  .menu .burger,
+  .burger,
   .img-placeholder img,
   .recent-works,
   .all-projects .projects,
@@ -1399,10 +1407,11 @@ span {
     margin-top: 300px;
   }
 
+
   .grow1:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    transform: scale(1.1);
     border: none;
     background: url("./images/Img-Placeholder-3.png");
   }

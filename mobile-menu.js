@@ -16,7 +16,6 @@ nav.addEventListener('click', () => {
 });
 
 // mobile modal
-
 const mobilePopupObj = [
   {
     id: 'b1',
@@ -119,7 +118,6 @@ seeProjectButtons.forEach((button) => {
 });
 
 // desktop modal
-
 const desktopPopupObj = [
   {
     id: 'd1',
@@ -137,6 +135,7 @@ const desktopPopupObj = [
   },
 
   {
+    
     id: 'd3',
     name: 'Multi Post Stories',
     featured_image3: 'images/Snapshoot-Portfolio.png',
