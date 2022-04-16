@@ -208,3 +208,38 @@ desktopButtons.forEach((button) => {
     }
   });
 });
+
+//  mobile validating form
+function validation() {
+  const mForm = document.getElementById('mForm-id');
+  const mName = mForm.elements.name.value;
+  const mEmail = mForm.elements.email.value;
+  const mMessage = mForm.elements.message.value;
+  const mAlert = document.getElementById('alert');
+  mAlert.innerHTML = '';
+
+  mForm.addEventListener('submit', (e) => {
+    if (mName.length < 1 && mName === undefined && mEmail < 1
+      && mEmail === undefined && mEmail !== mEmail.lowerCase()
+      && mMessage.length < 5 && mMessage === undefined) {
+      e.preventDefault();
+      mAlert.innerHTML = '* Make sure you fill all input fields correctly. Form not sent.';
+    } else if (mEmail !== mEmail.toLowerCase() || mEmail === '') {
+      e.preventDefault();
+      mAlert.innerHTML = '* Make sure your email is in a correct form. Form not sent.';
+    } else if (mMessage.length < 5 || mMessage === undefined) {
+      e.preventDefault();
+      mAlert.innerHTML = '* Text area should have at least 5 characters. Form not sent.';
+    } else if (mName.length < 1 || mName === undefined) {
+      e.preventDefault();
+      mAlert.innerHTML = '* please make sure you fill your name correctly. Form not sent.';
+    } else if (mMessage.length > 50) {
+      e.preventDefault();
+      mAlert.innerHTML = '* message too long (max: 50 caracters). Form not sent.';
+    } else {
+      mForm.submit();
+    }
+  });
+}
+
+validation();

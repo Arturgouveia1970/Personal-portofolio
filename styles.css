@@ -675,6 +675,24 @@ span {
     overflow-x: hidden;
   }
 
+  .form .mensa {
+    display: flex;
+    width: 250px;
+    height: 50px;
+  }
+
+  .alert {
+    color: red;
+  }
+
+  .form #alert {
+    display: inline-block;
+    color: #ff6b00;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
   .menu .burger,
   .mobile-menu,
   .menu ul,
@@ -928,7 +946,6 @@ span {
   .img-placeholder img,
   .recent-works,
   .all-projects .projects,
-  .form ul .name,
   .form .bottom-line {
     display: none;
   }
@@ -1307,20 +1324,8 @@ span {
 
   .form form .email {
     position: absolute;
-    margin-top: 65px;
+    margin-top: 35px;
     margin-left: 5px;
-  }
-
-  .form ul .first-name {
-    position: absolute;
-    margin-left: 5px;
-    margin-top: 0;
-  }
-
-  .form ul .last-name {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 0;
   }
 
   .form ul .message {
@@ -1332,7 +1337,7 @@ span {
   .form ul .button {
     position: absolute;
     margin-left: -87px;
-    margin-top: 300px;
+    margin-top: 20px;
   }
 
   .form ul textarea {
@@ -1349,7 +1354,7 @@ span {
     width: 684px;
   }
 
-  .form ul .first-name input {
+  .form ul .name input {
     width: 330px;
   }
 
@@ -1371,6 +1376,27 @@ span {
   .form {
     height: 1000px;
     margin-top: 80px;
+  }
+
+  .form .name {
+    position: relative;
+    margin-top: 35px;
+    margin-left: -85px;
+  }
+
+  .form .mensa {
+    color: red;
+    width: 450px;
+    height: 50px;
+    margin-top: 300px;
+  }
+
+  .form #alert {
+    color: #ff6b00;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 300px;
   }
 
   .grow1:hover {
