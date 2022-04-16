@@ -302,35 +302,36 @@
       </ul>
           
     </section> 
-    <section class="form" id="mForm-id" >  
+    <section class="form">  
       <h4>I'm always interested in hearing about new projects,
          so if you'd like to chat please get in touch.</h4>
 
-      <form action="https://formspree.io/f/xayvdwna" method="Post">
+      <form id="mForm-id" action="https://formspree.io/f/xayvdwna" method="Post">
         <ul>
           <li class="name">
             <label for="name"></label>
-            <input type="text" id="name" name="user_name" placeholder="Full name" required maxlength="60" />
+            <input type="text" id="name" name="name" placeholder="Full name" maxlength="60" />
           </li>
-          <li class="first-name">
+          <!-- <li class="first-name">
             <label for="first-name"></label>
-            <input type="text" id="first-name" name="user_name" placeholder="Full name" required maxlength="30" />
+            <input type="text" id="first-name" name="name" placeholder="Full name" maxlength="30" />
           </li>
           <li class="last-name">
             <label for="name"></label>
-            <input type="text" id="last-name" name="user_name" placeholder="Last Name" required maxlength="30" 
+            <input type="text" id="last-name" name="name" placeholder="Last Name" maxlength="30" 
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$" />
-          </li>
+          </li> -->
           <li class="email">
-            <label for="mail"></label>
-            <input type="email" id="email" name="user_email" placeholder="Email adress" required maxlength="50" />
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email adress" maxlength="50"
+              pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$"/>
           </li>
           <li class="message">
             <label for="message" class="messageLabel" ></label>
-            <textarea id="msg" name="user_message" placeholder="Type your message here" cols="30" rows="10" maxlength="500"></textarea>
+            <textarea id="message" name="message" placeholder="Type your message here" cols="30" rows="10" maxlength="500"></textarea>
           </li>
           <div class="mensa">
-            <mensa id="alert">*</mensa>
+            <small id="alert">* fill your form correctly.</small>
           </div>
           <li class="button">
             <button onclick="validation()" type="submit">Get in touch</button>

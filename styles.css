@@ -677,10 +677,12 @@ span {
 
   .form .mensa {
     display: flex;
-    background-color: #3c3a39;
-    color: red;
     width: 250px;
     height: 50px;
+  }
+
+  .alert {
+    color: red;
   }
 
   .form #alert {

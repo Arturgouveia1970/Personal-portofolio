@@ -212,32 +212,32 @@ desktopButtons.forEach((button) => {
 //  mobile validating form
 function validation() {
   const mForm = document.getElementById('mForm-id');
-  const mName = document.getElementById('name');
-  const mEmail =document.getElementById('email');
-  const mMessage =document.getElementById('message');
+  const mName = mForm.elements.name.value;
+  const mEmail = mForm.elements.email.value;
+  const mMessage = mForm.elements.message.value;
   const mAlert = document.getElementById('alert');
-  alert.innerHTML = '';
+  mAlert.innerHTML = '';
 
   mForm.addEventListener('submit', (e) => {
     if (mName.length < 1 && mName === undefined && mEmail < 1
       && mEmail === undefined && mEmail !== mEmail.lowerCase()
       && mMessage.length < 5 && mMessage === undefined) {
         e.preventDefault();
-        alert.innerHTML = '* Make sure you fill all input fields correctly. Form not sent.';
-      } else if (mEmail !== mEmail.toLowerCase()) {
+        mAlert.innerHTML = '* Make sure you fill all input fields correctly. Form not sent.';
+      } else if (mEmail !== mEmail.toLowerCase() || mEmail === undefined) {
         e.preventDefault();
-        alert.innerHTML = '* Make sure your email is in lowercase. Form not sent.';
+        mAlert.innerHTML = '* Make sure your email is in a correct form. Form not sent.';
       } else if (mMessage.length < 5 || mMessage === undefined) {
         e.preventDefault();
-        alert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
+        mAlert.innerHTML = '* Text area should have at least 5 characters. form not sent.';
       } else if (mName.length < 1 || mName === undefined) {
         e.preventDefault();
-        alert.innerHTML = '* please make sure you fill your name correctly. form not sent.';
+        mAlert.innerHTML = '* please make sure you fill your name correctly. form not sent.';
       } else if (mMessage.length > 50) {
         e.preventDefault();
-        alert.innerHTML = '* message too long (max: 50 caracters). form not sent.';
+        mAlert.innerHTML = '* message too long (max: 50 caracters). form not sent.';
       } else {
-        mForm.onsubmit();
+        mForm.submit();
       }
         
   });
