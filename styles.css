@@ -595,7 +595,8 @@ textarea {
   height: 30px;
   top: 20px;
   font-family: inter, sans-serif;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
   padding-inline: 12px;
   border-bottom: 1px solid #dbd8d7;
 }
@@ -1360,10 +1361,12 @@ span {
 
   .form ul .email input {
     width: 684px;
+    padding: 15px;
   }
 
   .form ul .name input {
     width: 330px;
+    padding-top: 15px;
   }
 
   .form ul .last-name input {
@@ -1405,6 +1408,10 @@ span {
     font-size: 15px;
     font-weight: 700;
     margin-top: 300px;
+  }
+
+  .form input {
+    ;
   }
 
 
