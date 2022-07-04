@@ -24,6 +24,9 @@ Fell free to check my site: https://arturgouveia1970.github.io/Personal-portofol
 
 Give a ⭐️ if you like this project!
 
+## Live deploy
+-[Netlify](https://portfolio-artur.netlify.app/)
+
 ## Acknowledgments
 
 - great collaboration from my coding partners: Nil Djoleto and Sameh Tantawi.
