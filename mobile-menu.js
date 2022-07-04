@@ -135,7 +135,6 @@ const desktopPopupObj = [
   },
 
   {
-    
     id: 'd3',
     name: 'Multi Post Stories',
     featured_image3: 'images/Snapshoot-Portfolio.png',
